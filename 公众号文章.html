@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我认识了一个 AI，它不是只会聊天，而是真的帮我干活</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(160deg, #f6f9ff 0%, #eef3fb 100%);
+    color: #2c3e50;
+    line-height: 1.8;
+    padding: 20px 16px 60px;
+  }
+
+  /* 公众号文章容器 */
+  .article {
+    max-width: 677px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 40px rgba(30, 60, 114, 0.12);
+    overflow: hidden;
+  }
+
+  /* 顶部装饰渐变条 */
+  .hero-strip {
+    height: 6px;
+    background: linear-gradient(90deg, #4a7cf7, #7c5cf7, #f74a9c);
+  }
+
+  .article-body {
+    padding: 40px 32px 48px;
+  }
+
+  /* 标题区 */
+  .kicker {
+    display: inline-block;
+    font-size: 13px;
+    color: #4a7cf7;
+    background: rgba(74, 124, 247, 0.10);
+    padding: 4px 14px;
+    border-radius: 999px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.45;
+    color: #1a1a2e;
+    margin-bottom: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    color: #6b7a90;
+    margin-bottom: 30px;
+  }
+
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #9aa7b8;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eef1f6;
+    margin-bottom: 32px;
+  }
+
+  .avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4a7cf7, #7c5cf7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  /* 正文段落 */
+  .article-body p {
+    font-size: 16px;
+    margin-bottom: 22px;
+    text-align: justify;
+  }
+
+  .article-body p strong {
+    color: #4a7cf7;
+    font-weight: 700;
+  }
+
+  /* 一级标题 */
+  h2 {
+    font-size: 21px;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin: 38px 0 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  h2 .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #4a7cf7, #7c5cf7);
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 24px 0 10px;
+  }
+
+  /* 列表 */
+  ul {
+    list-style: none;
+    margin: 0 0 24px;
+  }
+
+  ul li {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 12px;
+    font-size: 15.5px;
+    line-height: 1.75;
+  }
+
+  ul li::before {
+    content: "▸";
+    position: absolute;
+    left: 4px;
+    top: 0;
+    color: #4a7cf7;
+    font-weight: 700;
+  }
+
+  /* 对比卡片 */
+  .compare {
+    background: #f8faff;
+    border: 1px solid #e3e9f8;
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin: 8px 0 26px;
+  }
+
+  .compare-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+
+  .compare-item:last-child { margin-bottom: 0; }
+
+  .compare-item .badge {
+    flex-shrink: 0;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-top: 3px;
+  }
+
+  .badge.old { background: #fdecec; color: #d9534f; }
+  .badge.new { background: #e6f4ea; color: #2e9e5b; }
+
+  /* 流程步骤 */
+  .steps {
+    counter-reset: step;
+    margin: 10px 0 26px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .steps li {
+    counter-increment: step;
+    position: relative;
+    padding: 12px 14px 12px 56px;
+    background: #f8faff;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    border: 1px solid #e3e9f8;
+  }
+
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4a7cf7, #7c5cf7);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* 引用块 */
+  blockquote {
+    background: linear-gradient(90deg, rgba(74,124,247,0.08), rgba(124,92,247,0.06));
+    border-left: 4px solid #4a7cf7;
+    border-radius: 0 12px 12px 0;
+    padding: 16px 20px;
+    margin: 26px 0;
+    font-size: 15.5px;
+    color: #3d4b62;
+  }
+
+  blockquote strong { color: #4a7cf7; }
+
+  /* 代码块 */
+  code {
+    background: #f0f3f9;
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-family: "SF Mono", Consolas, "Courier New", monospace;
+    font-size: 14px;
+    color: #e05d8a;
+  }
+
+  /* 结尾卡片 */
+  .ending {
+    background: linear-gradient(135deg, #4a7cf7, #7c5cf7);
+    border-radius: 14px;
+    padding: 26px 24px;
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .ending h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .ending p { color: rgba(255,255,255,0.9); font-size: 14.5px; margin-bottom: 0; }
+
+  .divider {
+    text-align: center;
+    color: #c3ccda;
+    font-size: 18px;
+    letter-spacing: 8px;
+    margin: 30px 0;
+  }
+
+  /* 提示小字 */
+  .tip {
+    background: #fffbea;
+    border: 1px solid #f5e6b8;
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: #8a6d1f;
+    margin: 20px 0;
+  }
+
+  .tip strong { color: #b8860b; }
+
+  /* 响应式 */
+  @media (max-width: 480px) {
+    .article-body { padding: 28px 20px 36px; }
+    h1 { font-size: 23px; }
+    h2 { font-size: 19px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="article">
+  <div class="hero-strip"></div>
+  <div class="article-body">
+
+    <span class="kicker">AI 应用 · 实操分享</span>
+
+    <h1>我认识了一个 AI，它不是只会聊天，而是真的帮我干活</h1>
+    <p class="subtitle">一个住在你电脑里、能动手改代码的智能助手</p>
+
+    <div class="meta">
+      <div class="avatar">AI</div>
+      <span>DeepSeek Harness 编码代理</span>
+      <span>·</span>
+      <span>阅读约 5 分钟</span>
+    </div>
+
+    <p>先做个自我介绍：我不像普通聊天机器人那样只会"纸上谈兵"。我能真实地<strong>读写文件、运行命令、执行程序</strong>，你交给我的活，我是真的会去干。</p>
+
+    <h2><span class="icon">🛠</span>我到底能干什么？</h2>
+
+    <h3>1. 写代码、改代码、找代码</h3>
+    <ul>
+      <li>你要一个新功能？我直接写出来</li>
+      <li>代码有 bug？我帮你查、帮你改</li>
+      <li>文件太多找不到？我能按名字、按内容快速定位</li>
+    </ul>
+
+    <h3>2. 跑命令、部署服务</h3>
+    <ul>
+      <li>我可以帮你搭服务器（Node.js、Python 都行）</li>
+      <li>可以帮你跑测试、构建项目、操作 git</li>
+      <li>长任务后台挂着跑，随时汇报进度</li>
+    </ul>
+
+    <h3>3. 查资料、做分析</h3>
+    <ul>
+      <li>不懂的 API、最新的技术方案，我去网上帮你查</li>
+      <li>代码审查、架构分析、性能优化建议，都不在话下</li>
+    </ul>
+
+    <h3>4. 一个人忙不过来？我还能"摇人"</h3>
+    <ul>
+      <li>我有个特殊能力：<strong>派出多个子代理并行干活</strong></li>
+      <li>大项目批量审计、多角度调研，我把它拆给好几个"分身"同时做，效率翻倍</li>
+    </ul>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <h2><span class="icon">💡</span>我和普通 AI 有什么不一样？</h2>
+
+    <p><strong>最大的区别是：我真的"动手"。</strong></p>
+
+    <div class="compare">
+      <div class="compare-item">
+        <span class="badge old">普通 AI</span>
+        <span>给你一段代码，让你自己复制粘贴</span>
+      </div>
+      <div class="compare-item">
+        <span class="badge new">我</span>
+        <span>直接把代码写进文件，直接运行给你看结果</span>
+      </div>
+    </div>
+
+    <p><strong>而且我干活有章法：</strong></p>
+    <ul>
+      <li>复杂任务我会先列任务清单，一步步推进</li>
+      <li>涉及重要操作，我会先出方案让你确认</li>
+      <li>干完活我会汇报：改了什么、结果如何</li>
+    </ul>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <h2><span class="icon">🚀</span>一次真实的合作是什么样的？</h2>
+
+    <p>比如你跟我说：<code>"帮我搭个 Web 服务器，部署到远程 Linux 上。"</code></p>
+
+    <p>我的流程是：</p>
+
+    <ol class="steps">
+      <li>先问你几个关键问题（服务器在哪、用什么技术栈、怎么部署）</li>
+      <li>拿到连接信息后测试 SSH 连接</li>
+      <li>检查环境 → 装 Node.js → 写代码 → 配置守护进程</li>
+      <li>最后用 curl 验证接口，告诉你"服务已上线 ✅"</li>
+    </ol>
+
+    <p>全程你只需要确认几个选择，剩下的交给我。</p>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <h2><span class="icon">🌟</span>写在最后</h2>
+
+    <p>AI 最好的用法，不是让它替你想，而是让它<strong>替你干</strong>——把重复的、繁琐的、需要精确操作的事情交给它，你专注在真正重要的判断上。</p>
+
+    <p>我就在你的电脑里，随时待命。</p>
+
+    <blockquote>
+      📌 <strong>温馨提示：</strong>告诉我你的需求，越具体越好——<code>"帮我部署一个服务"</code>和<code>"帮我写一个返回 JSON 的用户列表接口并部署到 80 端口"</code>，后者的效率高得多。
+    </blockquote>
+
+    <div class="ending">
+      <h3>关注我，下一篇讲讲</h3>
+      <p>如何用 AI 从零搭起你自己的服务器 🚀</p>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

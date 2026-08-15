@@ -1,0 +1,3926 @@
+===== PAGE 1 =====
+How to promote green transformation of mariculture industry under the 
+influence of financial constraints? A policy simulation based on peer 
+incentive perspective
+An Yan
+a
+, Ying Liu
+a
+, Chunyu Lin
+c , d
+, Wenwen Gu
+a
+, Qiaorong Yin
+b , 1 , *
+, Xiumei Fu
+a , * , 2
+a
+School of Economics, Ocean University of China, Qingdao, Shandong 266100, China
+b
+Management College, Ocean University of China, Qingdao, Shandong 266100, China
+c
+Ocean College, Zhejiang University, Zhoushan, Zhejiang 316000, China
+d
+Ocean Research Center of Zhoushan, Zhejiang University, Zhoushan, Zhejiang 316021, China
+ARTICLE INFO
+Keywords:
+Financial constraints
+Peer incentive
+Mariculture industry
+Green transformation
+Evolutionary game
+ABSTRACT
+The green transformation of mariculture is a crucial aspect for promoting the sustainable development of the 
+marine environment. To address financial constraints such as the high financial pressure on local governments 
+and the difficulty of traditional fishing enterprises in meeting green credit conditions due to technical resource 
+limitations, the paper proposes a peer incentive mechanism. Then, this paper focuses on the impact of peer 
+incentive policy on the green transition of the mariculture industry by constructing a four-party evolutionary 
+game model among local governments, financial institutions, green mariculture enterprises and traditional 
+mariculture enterprises. The main results are, (1) There exists a conflict between environmental regulation and 
+green credit, and peer incentive policy can effectively mitigate the conflict relationship. (2) The peer incentive 
+policy can accelerate the green transformation of the mariculture industry more effectively than incentive- 
+oriented environmental regulation. (3) Both the allocation ratio of peer incentive levy and the efficiency of 
+monitoring of green fishing enterprises to traditional fishing enterprises can regulate the synergistic effect among 
+these policies.
+1. Introduction
+In the context of the depletion of global fisheries resources, mari -
+culture is an important way to utilize marine fishery resources 
+( Galparsoro et al., 2020 ; Alsaleh et al., 2024 ). Global marine and coastal 
+aquaculture production increased by 64% in the 10 years to 2019. 
+However, there are a series of problems, including the deposition of 
+nitrogen species ( Maxey et al., 2023 ), coastal deposition of organic 
+matter ( Kessouri et al., 2021 ), and eutrophication in marine fisheries 
+aquaculture ( Wei et al., 2023 ). Furthermore, the aquaculture industry 
+has been identified as a significant contributor to environmental 
+degradation and human health concerns due to its crude mariculture 
+practices ( Lin et al., 2022 ), which impedes the sustainable development 
+of the global economy. At present, it has become a hot topic in the world 
+to realize a green transformation of mariculture by coordinating the 
+symbiotic relationship between mariculture and the ecological envi -
+ronment ( Fu et al., 2022 ).
+Green transformation of industry refers to the shift of enterprises 
+towards environmental protection, energy conservation, low-carbon 
+and sustainability. This transformation is achieved through technolog -
+ical innovation and adjustments of production methods, aimed at 
+reducing environmental impact and promoting the coordinated devel -
+opment of the economy, society, and environment ( Hou et al., 2018 ; 
+Karlsson and Hovelsrud, 2021 ). However, in the market economy, en -
+terprises, as “ rational economic man ” , usually base their decision- 
+making behavior on the cost-benefit decisions ( Vriend, 1996 ; Semmler 
+et al., 2022 ). When enterprises face financial constraints, their willing -
+ness to choose environmentally friendly governance is often low. Sieg -
+rist et al. (2020) suggest that financial pressure continues to be the most 
+important factor that enterprises are concerned about in the decision- 
+* Corresponding authors.
+E-mail addresses: 11241211015@stu.ouc.edu.cn (Q. Yin), xiumei@ouc.edu.cn (X. Fu). 
+1
+Postal address: Management College, Ocean University of China, No. 238 Songling Road, Laoshan District, Qingdao, Shandong, China.
+2
+Postal address: School of Economics, Ocean University of China, No. 238 Songling Road, Laoshan District, Qingdao, Shandong, China.
+Contents lists available at ScienceDirect
+Marine Pollution Bulletin
+journal homepag e: www.else vier.com/loc ate/marpol bul
+https://doi.org/10.1016/j.marpolbul.2025.118313
+Received 23 November 2024; Received in revised form 3 March 2025; Accepted 12 June 2025  
+Marine Pollution Bulletin 219 (2025) 118313 
+Available online 21 June 2025 
+0025-326X/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+===== PAGE 2 =====
+making process. A study by Chung and Low (2017) pointed out that 
+when funds were scarce, enterprises often prioritized governance mea -
+sures that protect short-term profits, neglecting long-term environ -
+mental impacts. Initial research and development for green farming 
+techniques and equipment typically requires significant capital invest -
+ment. In the long-term, Azar and Ciabuschi (2017) and Liu et al. (2020a)
+argued that green innovation led to an innovation compensation effect. 
+However, the process remained fraught with uncertainty ( Roper and 
+Tapinos, 2016 ; Xiang et al., 2022 ). Consequently, capital-constrained 
+enterprises tend to view green innovation as a high-risk investment. 
+This indicates that financial constraints limit enterprises ’ willingness to 
+engage in green innovation, thereby hindering environmental protec -
+tion efforts. A further deduction is that funding plays a critical role in 
+promoting the green transformation of the mariculture industry. It is 
+also essential in the green farming behaviors of fishery enterprises 
+( Guillen et al., 2019 ; Knapp and Rubino, 2016 ). Inadequate funding may 
+cause fishing enterprises to lack sufficient incentives to innovate. 
+Consequently, this directly affects the process of green transformation of 
+the mariculture industry. That is, financial constraint has become one of 
+the key factors constraining the sustainable development of the industry.
+According to current research, measures to promote green trans -
+formation of industries mainly include penalty mechanisms and incen -
+tive mechanisms ( Clinton and Steinberg, 2019 ; Farza et al., 2021 ; Chang 
+et al., 2024 ). The penalty mechanism primarily applies external pressure 
+to compel enterprises to engage in green technological innovation. Yu 
+et al. (2023) and Gao et al. (2022) examined the evolutionary path of 
+green behaviors in marine enterprises under different tax and penalty 
+strategies within the scope of marine environmental governance. 
+Although the penalty mechanism can force enterprises to engage in 
+green innovation, Fehr and G ¨achter (2002) and Li et al. (2024) argued 
+that penalties had no economic effects. Greife and Maume (2020) sug -
+gested that punishment may even provoke vindictive social behavior. 
+Incentive mechanisms alleviate the financial constraints of enterprises 
+by providing them with policy support and financial subsidies, thereby 
+encouraging them to adopt environmentally friendly governance. 
+Currently, Government Regulation and Financial Support are the main 
+sources of funding to promote the green transformation of industries 
+( Kidwell et al., 2016 ; Huang et al., 2019 ; Yu et al., 2021 ). In terms of 
+government regulation, the government provides technical support and 
+financial subsidies to enterprises with good green performance. 
+Although green subsidies have a certain positive significance, the 
+shortage of subsidy funds and the short policy implementation cycle 
+may have a negative effect on the green transformation of industries. For 
+example, Zheng and Yu (2022) examined whether governments subsi -
+dize marine carbon sink fisheries and concluded that increased gov -
+ernment subsidies were not conducive to the development of carbon sink 
+fisheries. 
+ˇ
+S ¯umakaris et al. (2021) suggested that government financial 
+incentives were one of the determinants of enterprises ’ achievement of 
+energy efficiency innovations, but there was currently a huge gap in 
+subsidized funding. Petrovi ´c and Lobanov (2020) conducted an empir -
+ical analysis of the impact of investment on industrial innovation, using 
+16 OECD countries as the study sample. They argued that long-term 
+investment is beneficial for industrial innovation, but there is contro -
+versy over whether short-term investment can promote industrial 
+innovation. A single source of subsidy funding also puts significant 
+financial pressure on the government, and the lack of funding will affect 
+the effectiveness of government regulation ( Shattock and Horvath, 
+2019 ; Liu et al., 2020b ; Wang and Zhang, 2020 ). In terms of financial 
+support, financial institutions ease the financing constraints of industrial 
+transformation through the issuance of green credit. While green credit 
+policies have promoted technological upgrading of enterprises, the 
+bank-led financing system has some limitations in practice. Especially 
+for highly polluting enterprises, it is often difficult for them to obtain 
+green credit support due to the high costs and risks associated with green 
+innovation ( Chai et al., 2022 ), which further increases the financing 
+constraints in the green transition. For example, Pang et al. (2022)
+concluded that green finance did not always have a positive impact on 
+green technological innovation, but instead green finance discouraged 
+green innovation in the short to medium term. Zhou and Zhang (2023)
+suggested that green credit had a crowding-out effect on green tech -
+nology innovation in SMEs by increasing competition for credit 
+financing.
+In summary, financial constraints are a major factor limiting the 
+green transformation of industries. Although governments and financial 
+institutions have mitigated financial shortfalls for some enterprises 
+through incentive-based environmental regulations and green credits, 
+there are still a significant number of enterprises, especially high- 
+pollution firms, facing a funding gap for their green transformation. 
+Some scholars have pointed out that the optimization of government and 
+enterprise financing channels can alleviate the problem of industrial 
+financial constraints and indirectly promote the implementation of 
+external incentive policies ( Huang et al., 2021 ), but few scholars have 
+conducted quantitative studies on the problem of financing sources. The 
+core issue of this paper is to alleviate the financing constraints of 
+mariculture industrial green transformation by designing a peer incen -
+tive mechanism. This mechanism is based on the concept of “ non-pu -
+nitive green incentive mechanism with multiple funding channels. ” 
+Specifically, this study aims to address the following problems: 
+(1) What is the relationship between existing incentive mechanism?
+(2) Can peer-to-peer incentives promote green transition in 
+mariculture?
+(3) What are the key factors in peer incentives that can be changed to 
+accelerate the green transition in mariculture?
+Furthermore, the reasons for choosing the evolutionary game model 
+in this paper are as follows: Firstly, considering that peer incentive is an 
+incentive mechanism proposed based on theory and practice, and due to 
+the lack of relevant statistical data, it is not feasible to use econometric 
+models for this research. Therefore, this paper adopts evolutionary game 
+theory and employs numerical simulation to explore the peer incentive 
+effect in the green transformation of marine aquaculture, effectively 
+overcoming the limitation of lacking statistical data support. Secondly, 
+since the green transformation of marine aquaculture is a dynamic 
+process, evolutionary game analysis, as a dynamic simulation method, 
+can more effectively predict and explain the behavioral changes of each 
+stakeholder at different stages, making the research findings more 
+insightful and practical. Finally, the green transformation of marine 
+aquaculture involves multiple stakeholders, including the governments, 
+financial institutions, and fisheries enterprises. Within the framework of 
+peer incentives, the study also needs to distinguish between green and 
+traditional fisheries enterprises. The strategic choices of fisheries en -
+terprises are often influenced by various factors, such as the strength of 
+government environmental regulations and the loan interest rates set by 
+financial institutions. Therefore, game theory serves as a powerful tool 
+for analyzing the strategy choices of fisheries enterprises, providing 
+important theoretical support for understanding their decision-making 
+processes.
+The rest of the paper is structured as follows. Section 2 provides a 
+review of the relevant literature and presents the contributions of this 
+paper; Section 3 is the theoretical foundation and model construction of 
+the evolutionary game model; Section 4 derives the replicated dynamic 
+equations of the evolutionary game model; Section 5 presents the results 
+of the ESS analysis of the evolutionary game model; Section 6 performs a 
+policy simulation and analyzes the impact of some potential factors on 
+the policy implementation effect through numerical simulation 
+methods; Section 7 presents case study; Section 8 reviews the results, 
+offers policy implications, and notes the limitations of the paper.
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+2 
+===== PAGE 3 =====
+2. Literature review
+2.1. Factors affecting the green transition in mariculture
+Existing literature primarily discusses the factors influencing the 
+green transformation of the marine aquaculture industry from both in -
+ternal and external perspectives. From an internal perspective, aqua -
+culture technology and management models are key factors driving the 
+green transformation. For example, Xiao et al. (2019) and Kori ˇcan et al. 
+(2022) suggested that efficient recirculating aquaculture systems not 
+only reduce costs but also decrease water pollution, thereby promoting 
+green industry development. Yu and Han (2020) argued that good 
+aquaculture practices and disease management also play an important 
+role in the green transformation. At the same time, small and medium- 
+sized aquaculture enterprises within the industry often face difficulties 
+in bearing the high costs and risks associated with green transformation 
+due to limitations in technology research and development and financial 
+reserves ( Farmery et al., 2021 ; Zhang et al., 2022a ). From an external 
+perspective, factors such as environmental regulations and market 
+conditions have a significant impact on the decision-making behavior of 
+aquaculture operators ( Liu et al., 2024 ; Wang et al., 2024 ). For example, 
+the choice experiment by Li et al. (2024) demonstrated that economic 
+incentive policies can significantly encourage aquaculture operators to 
+adopt environmentally friendly production methods. Therefore, 
+regardless of internal or external factors, the green transformation of the 
+marine aquaculture industry relies on sufficient financial support. 
+Milewski and Smith (2019) , Robotham et al. (2019) , and Dong et al. 
+(2023) , through evaluating the green development levels of marine 
+aquaculture in different regions, all emphasized that economic support 
+is a necessary means to ensure the long-term green and healthy devel -
+opment of the industry.
+2.2. Financial constraints and the green transformation of the marine 
+industry
+Undoubtedly, the issue of financial constraints is one of the main 
+obstacles to the green transformation of the industry, and a lack of 
+sufficient funds will make the green transformation extremely difficult. 
+Existing research mainly focuses on the role of government subsidies 
+and green finance in addressing financing constraints. On the one hand, 
+government subsidies provide crucial economic support for the green 
+transformation of the marine industry, incentivizing marine-related 
+enterprises to adopt more environmentally friendly and sustainable 
+production methods ( Wu et al., 2022 ; Wan et al., 2023 ). On the other 
+hand, financial instruments such as blue loans ( Shan et al., 2023 ) and 
+blue bonds ( Thompson, 2022 ) have a positive impact on promoting the 
+sustainable development of the marine economy ( Shiiba et al., 2022 ). 
+However, relying on a single source of funding also presents some 
+challenges in promoting green transformation. Relying solely on gov -
+ernment funds not only increases the financial burden on the govern -
+ment ( Shattock and Horvath, 2019 ; 
+ˇ
+S ¯umakaris et al., 2021 ), but may 
+also introduce rent-seeking risks ( Chai et al., 2022 ; Pang et al., 2022 ). 
+Moreover, some scholars argued that the vulnerability of the marine 
+industry made it difficult for the sector to obtain sufficient credit support 
+( Kleih et al., 2013 ). In the marine aquaculture industry, especially for 
+high-polluting enterprises, due to their extensive farming practices, they 
+often face stricter credit assessments and higher credit thresholds 
+( Huang et al., 2023 ), which exacerbates the financial constraints in their 
+green transformation process. To address these issues, some scholars 
+have started to explore incentive mechanisms for multiple funding 
+channels. Tirumala and Upadhyay (2024) proposed that traditional 
+financing methods have failed to effectively address the financial con -
+straints related to coastal degradation and marine resource protection. 
+They argued that investment and collaboration between similar enter -
+prises could become a key approach to alleviating the problem of 
+financial shortages.
+In summary, first, while research on the green transformation of 
+marine aquaculture has clarified the importance of economic support, 
+there is a lack of sufficient explanation regarding specific strategies to 
+overcome financial constraints. Second, although scholars generally 
+believe that government subsidies and green finance can alleviate 
+financial constraints in the green transformation of the marine industry 
+to some extent, issues such as heavy government financial pressure and 
+high loan thresholds for polluting enterprises still exist. Finally, while 
+some scholars have proposed that the multi-funding channel incentive 
+mechanism ” can serve as an important supplement to government 
+subsidies and financial support, this view remains at the policy sug -
+gestion level and lacks in-depth theoretical analysis and quantitative 
+research. Therefore, the main contribution of this paper is as follows: on 
+the one hand, based on theoretical and practical foundations, a policy 
+framework for peer incentives is proposed, exploring a new “ multi- 
+funding channel incentive mechanism ” ; on the other hand, based on 
+evolutionary game theory, numerical simulation analysis is used to 
+verify the feasibility and effectiveness of this mechanism in the green 
+transformation of marine aquaculture. This not only provides a new 
+theoretical perspective for solving the financial constraints in the marine 
+aquaculture industry, but also offers practical policy references for how 
+governments and financial institutions can collaborate to promote the 
+green transformation of the marine aquaculture industry.
+3. Theoretical foundation and model construction
+3.1. Theoretical foundation
+Local governments implement environmental regulatory policy, 
+including “ financial subsidies ” and “ environmental taxes ” to promote 
+the green transformation of the mariculture industry. In this case, sub -
+sidies act as a positive incentive, while taxation serve a counter- 
+incentive. However, government subsidies will increase the govern -
+ment ’ s financial pressure and affect the government ’ s willingness to 
+spend green. Therefore, local governments propose a systematic incen -
+tive program to incentivize the green transformation of the industry. All 
+fishing enterprises in the industry are required to jointly contribute to 
+the formation of a peer-to-peer incentive pool of funds. Then, the local 
+governments take over the pool of funds. They distribute these pool 
+funds alongside official subsidies to enterprises that engage in green 
+farming according to their actual situation. In addition, financial in -
+stitutions promote enterprise green farming through the implementa -
+tion of green credit. However, polluting enterprises frequently rely on 
+outdated mariculture methods. These methods harm marine ecology, 
+such as intensive mariculture, excessive antibiotic use, irrational feed 
+management, and the direct discharge of pollutants into the sea. These 
+practices are clearly contrary to the goals of green credit. Therefore, it is 
+difficult to obtain green credit support for polluting enterprises. From 
+the perspective of corporate social responsibility and peer incentives, 
+non-polluting enterprises can reach a balanced interest relationship with 
+polluting enterprises in order to maximize personal and social welfare. 
+Specifically, non-polluting enterprises may leverage their own credit to 
+assist polluting enterprises in implementing green farming through 
+“ cost-sharing and benefit-sharing ” contracts. These agreements serve as 
+credit guarantees, facilitating approach to green financing for polluting 
+enterprises.
+Peer incentives are structured on both practical and theoretical 
+foundations. Practically, the mechanism originates from the Paris 
+Agreement of 2016, which reflects a consensus that developed countries 
+as major gas emitters, should assume greater responsibility and provide 
+financial assistance to developing countries. Theoretically, Yang et al. 
+(2018) validate the effectiveness of intra-organizational incentives 
+through the framework of the public goods game.
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+3 
+===== PAGE 4 =====
+3.2. Model assumptions
+In this study, financial institutions (FIs), green fishing enterprises 
+(GFEs), traditional fishing enterprises (TFEs) and local governments 
+(LGs) are involved in the evolutionary game model. The four parties are 
+limited rational participants, and their strategy selection is stable in the 
+optimal strategy with the change of time. The evolutionary stable stra -
+tegies (ESS) of the FIs can be classified into green and traditional credit. 
+The proportions of green credit are denoted as x , and the proportions of 
+traditional credit are represented as 1   x , where x ∈ [ 0 , 1 ] . The ESS of 
+the GFEs can be classified into “ green mariculture ” and “ traditional 
+mariculture, ” having the following respective proportions: y and 1   y , 
+where y ∈ [ 0 , 1 ] . The strategic spaces of the TFEs are also “ green mari -
+culture ” and “ traditional mariculture. ” The proportion of TFEs choosing 
+green mariculture is z , while the proportion of TFEs choosing traditional 
+mariculture is 1   z , where z ∈ [ 0 , 1 ] . The strategic spaces of the LGs are 
+“ strict regulation ” and “ weak regulation. ” The proportion of strong 
+regulation is represented as w , while the proportion of weak regulation 
+is denoted by 1   w ,where w ∈ [ 0 , 1 ] .
+Assumption 1 . When the FIs issue green credit, the additional cost is 
+C
+b
+. The benefit sharing rate from enterprises is i
+g
+. The interest rate 
+received by the FIs is represented by i
+g
+( H
+1
++ H
+2
+) , i
+g
+H
+1
+. The additional 
+benefit due to green credit is W . When traditional credit is extended, the 
+revenue sharing rate from the firm is i
+n
+, and the net additional revenue 
+received is 0, (proportion: i
+g
+< i
+n
+)
+.
+Assumption 2 . It can be demonstrated that mariculture entities that 
+engage in green mariculture will gain social reputation and higher long- 
+term profits. The normal operating cost of the GFEs is C
+1
+, the additional 
+cost of green mariculture is C
+g
+, and the additional gain is R
+2
+. After green 
+mariculture, GFEs will apply for green credit from FIs, and the gain from 
+utilizing loans from FIs is R
+1
+.
+Assumption 3 . Green credit facilitates a new equilibrium among en -
+terprises by modifying their financing costs through cost-sharing con -
+tracts ( Zhang et al., 2022b ). The proportion of costs shared by GFEs is 
+denoted by β in the contract, and the proportion of benefits shared by 
+GFEs is represented by i . In addition, the higher lending rates reflect 
+higher risks in financial transactions, which results in the GFEs may 
+demand a higher profit-sharing ratio to compensate for this risk. 
+Consequently, i = λ i
+g
+, where λ ≥ 1.
+Assumption 4 . The normal operating cost of TFEs is C
+2
+, the additional 
+cost of green mariculture is C
+t
+, the additional benefit is R
+b
+, and the 
+benefit of utilising the loan obtained from the GFEs is R
+a
+. The TFEs may 
+also engage in production fraudulent lending behavior. On the one hand, 
+fraudulent lending behavior may result in GFEs bearing the risk of TFEs 
+failing to fulfil their contracts or repay their loans. On the other hand, it 
+may also destroy the trust of FIs to GFEs. Consequently, the GFEs are 
+able to recover loans in a timely manner after discovering fraudulent 
+lending behavior of TFEs by monitoring the TFEs after the loan. The 
+profit earned from the operation of TFEs during the period of fraudulent 
+loans is R
+c
+.
+Assumption 5 . When the LGs choose to strictly regulate, if a fishing 
+enterprise chooses green mariculture, it may receive subsidy funds M . 
+There are two sources of these funds: the first part of the funds is the 
+official government contribution, denoted by J , while the remaining 
+portion of the funds comes from peer incentive payments, denoted by V 
+(the proportion of the collection on the GFEs and TFEs is ε and η , 
+respectively, where ε + η = 1). The share of subsidy funds for green and 
+traditional fishing enterprises is the same as the share of peer incentive 
+payment, which is also ε and η , respectively when both types of enter -
+prises are engaged in green mariculture. If fishing enterprises choose the 
+traditional mariculture strategy, the government could impose addi -
+tional environmental taxes T
+1 
+and T
+2 
+on GFEs and TFEs respectively. The 
+LGs give incentives Q if the FIs implements the green credit policy and 
+penalizes S if it does not. The majority of existing literature simply 
+classifies the LGs ’ environmental strategies into two categories ( Gao 
+et al., 2022 ): regulation and non-regulation. However, in the context of 
+China ’ s high priority on building a marine ecological civilization, the 
+LGs rarely fail to regulate. Therefore, this paper use γ to denote the in -
+tensity of environmental regulation. When the LGs choose lax regula -
+tion, if the fishing firm chooses traditional mariculture, the GFEs and the 
+TFEs are levied additional environmental taxes T
+1 
+and T
+2 
+with proba -
+bility γ , respectively. And FIs are also penalized by γ S when they fail to 
+implement the green credit policy. At the same time, the additional cost 
+to the government in strict regulation is denoted by C
+a
+.
+According to the above theory and assumptions, the logical rela -
+tionship of the game among the four parties constructed in this paper is 
+shown in Fig. 1 .
+3.3. Model construction
+Based on the assumptions above, the game payment matrices are 
+constructed under strict and weak regulation by LGs. It is shown in 
+Tables 1 and 2 , respectively.
+4. Evolutionary game equilibrium analysis
+According to Tables 1 and 2 , the replication dynamics equations for 
+FIs, GFEs, TFEs, and LGs are constructed. Their ESS are analyzed as 
+follow.
+4.1. Strategic stability analysis of FIs
+The expected returns corresponding to the different strategy choices 
+are calculated according to the payment matrices in Tables 1 and 2 . 
+Then, the replicated dynamic equations of the FIs ’ evolutionary game 
+are constructed. The expected returns of FIs choosing green credit and 
+traditional credit, are calculated respectively as follows: 
+U
+1
+1
+= wyz
+[
+i
+g
+( H
+1
++ H
+2
+) + W   C
+b
++ Q
+]
++ wy ( 1   z )
+[
+i
+g
+( H
+1
++ H
+2
+) + W   C
+b
+]
++ w ( 1   y ) z
+ 
+i
+g
+H
+2
++ W   C
+b
++ Q
+)
++ w ( 1   y )( 1   z )
+ 
+i
+g
+H
+2
++ W   C
+b
++ Q
+)
++ ( 1   w ) yz
+[
+i
+g
+( H
+1
++ H
+2
+) + W   C
+b
++ Q
+]
++ ( 1   w ) y ( 1   z )
+[
+i
+g
+( H
+1
++ H
+2
+)
++ W   C
+b
++ Q
+]
++ ( 1   w )( 1   y ) z
+ 
+i
+g
+H
+2
++ W   C
+b
++ Q
+)
++ ( 1   w )( 1   y )( 1   z )
+ 
+i
+g
+H
+2
++ W   C
+b
++ Q
+)
+U
+2
+1
+= ( 1   w ) yz [ i
+n
+( H
+1
++ H
+2
+)   S ] + ( 1   w ) y ( 1   z )( i
+n
+H
+1
+  S )
++ ( 1   w )( 1   y ) z ( i
+n
+H
+2
+  S ) + ( 1   w )( 1   y )( 1   z )(   S )
++ ( 1   w ) yz [ i
+n
+( H
+1
++ H
+2
+)   γ S ] + ( 1   w ) y ( 1   z )( i
+n
+H
+1
+  γ S )
++ ( 1   w )( 1   y ) z ( i
+n
+H
+2
+  γ S ) + ( 1   w )( 1   y )( 1   z )(   γ S )
+U
+1
+= xU
+1
+1
++ ( 1   x ) U
+1
+2 
+According to the evolutionary game theory, the replication dynamic 
+equation of FIs ’ strategy choice is: 
+F ( x ) =
+dx
+dt
+= x
+ 
+U
+1
+1
+  U
+1
+)
+= x ( 1   x )
+[
+W   C
+b
++ Q + i
+g
+H
+2
++ γ S +
+ 
+i
+g
+H
+1
+  i
+n
+H
+1
+)
+y   i
+n
+H
+2
+z + ( S   γ S ) w
+]
+To find the first-order partial derivative with respect to x for F ( x ) , 
+then 
+dF ( x )
+dx
+= ( 1   2 x )
+[
+W   C
+b
++ Q + i
+g
+H
+2
++ γ S +
+ 
+i
+g
+H
+1
+  i
+n
+H
+1
+)
+y   i
+n
+H
+2
+z + ( S   γ S ) w
+]
+According to the stability property of the evolutionary game, the FIs ’ 
+strategy choice reaches a steady state when F ( x ) = 0 and 
+dF ( x )
+dx
+< 0. 
+Therefore: 
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+4 
+===== PAGE 5 =====
+(1) When w
+0
+=
+W   C
+b
++ Q + i
+g
+H
+2
++ γ S + ( i
+g
+H
+1
+  i
+n
+H
+1 ) y   i
+n
+H
+2
+z
+( γ S   S )
+and when 0 < w =
+w
+0
+< 1, the replicated dynamic equation F ( x ) ≡ 0 and 
+dF ( x )
+dx
+= 0. 
+At this point, the strategy selection process of the financial 
+institution is in a steady state, regardless of what value x takes.
+(2) When w ∕= w
+0
+, let F ( x ) = 0, then there is x = 0 or x = 1. When 
+0 < w
+0
+< w < 1, there is 
+dF ( x )
+dx x = 0
+> 0, 
+dF ( x )
+dx x = 1
+< 0; at this time, x =
+1 is the equilibrium point of the financial institution ’ s behavioral 
+evolution; when 0 < w < w
+0
+< 1, there is 
+dF ( x )
+dx x = 1
+> 0, 
+dF ( x )
+dx x = 0
+< 0; at this time, x = 0 is the equilibrium point of the 
+financial institution ’ s behavioral evolution.
+The results above indicate that if the LGs tend to opt for the “ strict 
+regulation ” strategy, the probability of the FIs selecting “ green credit ” 
+will approach 1. On the contrary, if the LGs tend to select the “ weak 
+regulation ” strategy, the probability of the FIs opting for the “ green 
+credit ” strategy will approach 0.
+4.2. Strategic stability analysis of GFEs
+Similarly, the replication dynamic equation for the strategy choice of 
+GFEs is: 
+F ( y ) =
+dy
+dt
+= y
+ 
+U
+1
+2
+  U
+2
+)
+= y ( 1   y )
+[
+R
+1
++ R
+2
++ γ T
+1
+  H
+1
+i
+n
+  C
+g
++ γ ε M
++
+ 
+i
+n
+H
+1
+  i
+g
+H
+1
+)
+x + ( T
+1
+  γ T
+1
++ ε M   γ ε M ) w
+]
+To find the first-order partial derivatives with respect to y for F ( y ) , 
+then 
+dF ( y )
+dy
+= ( 1   2 y )
+[
+R
+1
++ R
+2
++ γ T
+1
+  H
+1
+i
+n
+  C
+g
++ γ ε M +
+ 
+i
+n
+H
+1
+  i
+g
+H
+1
+)
+x
++ ( T
+1
+  γ T
+1
++ ε M   γ ε M ) w
+]
+According to the stability property of the evolutionary game, the 
+Fig. 1. Participants ’ behavior in four-party game.
+Table 1 
+Payment matrix for quadrilateral subjects under strict LGs regulation.
+TFEs FIs
+Green credit ( x ) Traditional credit (1   x )
+GFEs Green mariculture 
+( y )
+Green mariculture 
+( z )
+i
+g
+( H
+1
++ H
+2
+) + W   C
+b
++ Q ,
+R
+1
++ R
+2
+ 
+ 
+C
+g
++ C
+1
+)
+  i
+g
+H
+1
++ i ( R
+a
++ R
+b
+)   β H
+2
+i
+g
++ ε M   ε V ,
+( 1   i )( R
+a
++ R
+b
+)   ( C
+t
++ C
+2
+)   ( 1   β ) H
+2
+i
+g
++ η M   η V 
+  M + V + B
+1
++ B
+2
+  C
+a
+  Q
+i
+n
+( H
+1
++ H
+2
+)   S ,
+R
+1
++ R
+2
+ 
+ 
+C
+g
++ C
+1
+)
+  i
+n
+H
+1
++ ε M   ε V ,
+R
+a
++ R
+b
+  ( C
+t
++ C
+2
+)   H
+2
+i
+n
++ η M   η V 
+  M + V + B
+1
++ B
+2
+  C
+a
++ S
+Traditional mariculture 
+(1   z )
+i
+g
+( H
+1
++ H
+2
+) + W   C
+b
+,
+R
+1
++ R
+2
+ 
+ 
+C
+g
++ C
+1
+)
+  i
+g
+H
+1
++ iR
+c
+  β H
+2
+i
+g
++ ε M   ε V ,
+( 1   i ) R
+c
+  C
+2
+  ( 1   β ) H
+2
+i
+g
+  η V   T
+2 
+  ε M + V + B
+1
++ T
+2
+  C
+a
+  Q
+i
+n
+H
+1
+  S ,
+R
+1
++ R
+2
+ 
+ 
+C
+g
++ C
+1
+)
+  i
+n
+H
+1
++ ε M   ε V ,
+  C
+2
+  η V   T
+2 
+  ε M + V + B
+1
++ T
+2
+  C
+a
++ S
+Traditional mariculture 
+(1   y )
+Green mariculture 
+( z )
+i
+g
+H
+2
++ W   C
+b
++ Q ,
+i ( R
+a
++ R
+b
+)   C
+1
+  β H
+2
+i
+g
+  ε V   T
+1
+,
+( 1   i )( R
+a
++ R
+b
+)   ( C
+t
++ C
+2
+)   ( 1   β ) H
+2
+i
+g
++ η M   η V 
+  η M + V + B
+2
++ T
+1
+  C
+a
+  Q
+i
+n
+H
+2
+  S ,
+  C
+1
+  ε V   T
+1
+,
+R
+a
++ R
+b
+  ( C
+t
++ C
+2
+)   i
+n
+H
+2
++ η M   η V 
+  η M + V + B
+2
++ T
+1
+  C
+a
++ S
+Traditional mariculture 
+(1   z )
+i
+g
+H
+2
++ W   C
+b
++ Q, 
+iR
+c
+  C
+1
+  β H
+2
+i
+g
+  ε V   T
+1
+,
+( 1   i ) R
+c
+  C
+2
+  ( 1   β ) H
+2
+i
+g
+  η V   T
+2 
+V + T
+2
++ T
+1
+  C
+a
+  Q
+  S ,
+  C
+1
+  ε V   T
+1
+,
+  C
+2
+  η V   T
+2 
+V + T
+2
++ T
+1
+  C
+a
++ S
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+5 
+===== PAGE 6 =====
+GFEs ’ strategy choice reaches a steady state when F ( y ) = 0 and 
+dF ( y )
+dy
+< 0. 
+Therefore: 
+(1) When w
+0
+=
+R
+1
++ R
+2
++ γ T
+1
+  H
+1
+i
+n
+  C
+g
++ γ ε M + ( i
+n
+H
+1
+  i
+g
+H
+1 ) x
+( T 1
+  γ T
+1
++ ε M   γ ε M )
+and when 0 < w =
+w
+0
+< 1, the replicated dynamic equation F ( y ) ≡ 0 and 
+dF ( y )
+dy
+= 0. 
+At this point, the strategy selection process of the GFEs is in a 
+steady state, regardless of what value y takes.
+(2) When w ∕= w
+0
+, let F ( y ) = 0, then there is y = 0 or y = 1. When 
+0 < w < w
+0
+< 1, there is 
+dF ( y )
+dy
+y = 0
+< 0, 
+dF ( y )
+dy
+y = 1
+> 0; at this time, y =
+0 is the equilibrium point of the GFEs ’ behavioral evolution; 
+when 0 < w
+0
+< w < 1, there is 
+dF ( y )
+dy
+y = 1
+< 0, 
+dF ( y )
+dy
+y = 0
+> 0; at this 
+time, y = 1 is the equilibrium point of the GFEs ’ behavioral 
+evolution.
+The results demonstrate that the probability of the GFEs choosing the 
+“ traditional mariculture ” strategy will approach 0 if LGs tends to select 
+the strict regulation strategy; On the contrary, the probability of the 
+GFEs selecting the traditional mariculture strategy will be close to 1 if 
+LGs tend to opt for the “ weak regulation ” strategy.
+4.3. Strategic stability analysis of TFEs
+Similarly, the replication dynamic equation for the strategy choice of 
+TFEs is: 
+F ( z ) =
+dz
+dt
+= z
+ 
+U
+2
+3
+  U
+3
+)
+= z ( 1   z ){ R
+a
++ R
+b
+  C
+t
+  H
+2
+i
+n
++ γ T
+2
++ η M   η V
++ η γ V + x [ H
+2
+i
+n
+  R
+c
+  i ( R
+a
++ R
+b
+  R
+c
+) ] + ( η V + T
+2
+  γ T
+2
+  η γ V ) w }
+To find the first-order partial derivatives with respect to z for F ( z ) , 
+then 
+dF ( z )
+dz
+= ( 1   2z ){ R
+a
++ R
+b
+  C
+t
+  H
+2
+i
+n
++ γ T
+2
++ η M   η V + η γ V
++ x [ H
+2
+i
+n
+  R
+c
+  i ( R
+a
++ R
+b
+  R
+c
+) ] + ( η V + T
+2
+  γ T
+2
+  η γ V ) w }
+According to the stability property of the evolutionary game, the 
+TFEs ’ strategy choice reaches a steady state when F ( z ) = 0 and 
+dF ( z )
+dz
+< 0. 
+Therefore: 
+(1) When w
+0
+=
+R a + R
+b
+  C t   H 2 i n + γ T 2 + η M   η V + η γ V + x [ H 2 i n   R c   i ( R a + R
+b
+  R c ) ]
+( η V + T
+2
+  γ T
+2
+  η γ V )
+and 
+when 0 < w = w
+0
+< 1, the replicated dynamic equation F ( z ) ≡ 0 
+and 
+dF ( z )
+dz
+= 0. At this point, the strategy selection process of the 
+TFEs is in a steady state, regardless of what value z takes.
+(2) When w ∕= w
+0
+, let F ( z ) = 0, then there is z = 0 or z = 1. When 
+0 < w < w
+0
+< 1, there is 
+dF ( z )
+dz z = 0
+< 0, 
+dF ( z )
+dz z = 1
+> 0; at this time, z =
+0 is the equilibrium point of the TFEs ’ behavioral evolution; when 
+0 < w
+0
+< w < 1, there is 
+dF ( z )
+dz z = 1
+< 0, 
+dF ( z )
+dz z = 0
+> 0; at this time, z =
+1 is the equilibrium point of the TFEs ’ behavioral evolution.
+The results indicate that if LGs tends to select the strict regulation 
+strategy, the probability of the TFEs choosing the “ traditional maricul -
+ture ” strategy will approach 0. On the contrary, if LGs tend to opt for the 
+“ weak regulation ” strategy, then the probability of the TFEs selecting the 
+traditional mariculture strategy will be close to 1.
+4.4. Strategic stability analysis of LGs
+Similarly, the replication dynamic equation for LGs strategy choice is 
+constructed: 
+F ( w ) =
+dw
+dt
+= w
+ 
+U
+2
+4
+  U
+4
+)
+= w ( 1   w )[ T
+1
++ T
+2
+  C
+a
+  γ T
+1
+  γ T
+2
++ M   γ M + S   γ S   ( S   γ S ) x   ( 1   γ )( T
+1
+  η M + M ) y
+  ( 1   γ )( T
+2
+  ε M + M ) z ]
+To find the first-order partial derivatives with respect to w for F ( w ) , 
+then 
+dF ( w )
+dw
+= ( 1   2 w )
+[
+T
+1
++ T
+2
+  C
+g
+  γ T
+1
+  γ T
+2
++ M   γ M
+  ( 1   γ )( T
+1
+  η M + M ) y   ( 1   γ )( T
+2
+  ε M + M ) z
+]
+According to the stability property of the evolutionary game, the 
+TFEs ’ strategy choice reaches a steady state when F ( w ) = 0 and 
+dF ( w )
+dw
+< 0. 
+Therefore: 
+(1) When z
+0
+=
+[ T 1 + T 2   C g   γ T 1   γ T
+2
++ M   γ M   ( 1   γ )( T 1   η M + M ) y ]
+( 1   γ )( T
+2
+  ε M + M )
+and when 0 <
+z = z
+0
+< 1, the replicated dynamic equation F ( w ) ≡ 0 and 
+dF ( w )
+dw
+=
+0. At this point, the strategy selection process of the LGs is in a 
+steady state, regardless of what value w takes.
+(2) When z ∕= z
+0
+, let F ( w ) = 0, then there is w = 0 or w = 1. When 
+0 < z < z
+0
+< 1, there is 
+dF ( w )
+dw w = 1
+< 0, 
+dF ( w )
+dw w = 0
+> 0; at this time, 
+w = 1 is the equilibrium point of the LGs ’ behavioral evolution; 
+when 0 < z
+0
+< z < 1, there is 
+dF ( w )
+dw w = 0
+< 0, 
+dF ( w )
+dw w = 1
+> 0; at this 
+time, w = 0 is the equilibrium point of the LGs ’ behavioral 
+evolution.
+The results indicate that if TFEs tends to select the traditional 
+Table 2 
+Payment matrix for quadrilateral subjects under weak LGs regulation.
+TFEs FIs
+Green credit (x) Traditional credit (1-x)
+GFEs Green mariculture 
+( y )
+Green mariculture 
+( z )
+i
+g
+( H
+1
++ H
+2
+) + W   C
+b
++ Q ,
+R
+1
++ R
+2
+ 
+ 
+C
+g
++ C
+1
+)
+  i
+g
+H
+1
++ i ( R
+a
++ R
+b
+)   β H
+2
+i
+g
++ ε M   ε V ,
+( 1   i )( R
+a
++ R
+b
+)   ( C
+t
++ C
+2
+)   ( 1   β ) H
+2
+i
+g
++ η M   η V ,
+  M + V + B
+1
++ B
+2
+  Q
+i
+n
+( H
+1
++ H
+2
+)   γ S ,
+R
+1
++ R
+2
+ 
+ 
+C
+g
++ C
+1
+)
+  i
+n
+H
+1
++ ε M   ε V ,
+R
+a
++ R
+b
+  ( C
+t
++ C
+2
+)   H
+2
+i
+n
++ η M   η V ,
+  M + V + B
+1
++ B
+2
++ γ S
+Traditional mariculture 
+(1   z )
+i
+g
+( H
+1
++ H
+2
+) + W   C
+b
++ Q ,
+R
+1
++ R
+2
+ 
+ 
+C
+g
++ C
+1
+)
+  i
+g
+H
+1
++ iR
+c
+  β H
+2
+i
+g
++ ε M   ε V ,
+( 1   i ) R
+c
+  C
+2
+  ( 1   β ) H
+2
+i
+g
+  η V   γ T
+2
+,
+V + B
+1
++ γ T
+2
+  ε M   ( 1   γ ) η M   Q
+i
+n
+H
+1
+  γ S ,
+R
+1
++ R
+2
+ 
+ 
+C
+g
++ C
+1
+)
+  i
+n
+H
+1
++ ε M   ε V ,
+C
+2
+  η V   γ T
+2
+,
+V + B
+1
++ γ T
+2
+  ε M   ( 1   γ ) η M   Q
+Traditional mariculture 
+(1   y )
+Green mariculture 
+( z )
+i
+g
+H
+2
++ W   C
+b
++ Q ,
+i ( R
+a
++ R
+b
+)   C
+1
+  β H
+2
+i
+g
+  ε V   γ T
+1
+,
+( 1   i )( R
+a
++ R
+b
+)   ( C
+t
++ C
+2
+)   ( 1   β ) H
+2
+i
+g
++ M   η V , 
+B
+2
++ γ T
+1
++ V   η M   ( 1   γ ) ε M   Q
+i
+n
+H
+2
+  γ S ,
+  C
+1
+  ε V   γ T
+1
+,
+R
+a
++ R
+b
+  ( C
+t
++ C
+2
+)   i
+n
+H
+2
++ M   η V ,
+B
+2
++ γ T
+1
++ V   η M   ( 1   γ ) ε M + γ S
+Traditional mariculture 
+(1   z )
+i
+g
+H
+2
++ W   C
+b
++ Q, 
+iR
+c
+  C
+1
+  β H
+2
+i
+g
+  ε V   γ T
+1
+,
+( 1   i ) R
+c
+  C
+2
+  ( 1   β ) H
+2
+i
+g
+  η V   γ T
+2
+,
+V + γ T
+2
++ γ T
+1
+  ( 1   γ ) M   Q
+  γ S ,
+  C
+1
+  ε V   γ T
+1
+,
+  C
+2
+  η V   γ T
+2
+,
+V + γ T
+2
++ γ T
+1
+  ( 1   γ ) M + γ S
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+6 
+===== PAGE 7 =====
+mariculture strategy, the probability of the LGs choosing the “ strict 
+regulation ” strategy will approach 1. If the TFEs tend to opt for the green 
+mariculture strategy, then the probability of the LGs choosing the “ strict 
+regulation ” strategy will approach 0.
+5. Stability analysis of evolutionary game systems
+Let F ( x ) = F ( y ) = F ( z ) = F ( w ) = 0. Multiple local equilibria can be 
+derived from this system. According to Bj ¨ornerstedt and Weibull (1994) , 
+the stable solution in the multiple group evolution game is a strict Nash 
+equilibrium and it must be a pure strategy. Therefore, the equilibrium of 
+this quadratic game can be conducted with the sixteen pure strategy 
+equilibria in the equilibrium of this quadratic game. The sixteen pure 
+strategy equilibrium points are E
+1
+( 0 , 0 , 0 , 0 ) , E
+2
+(0,0,0,1), 
+E
+3
+( 0 , 0 , 1 , 0 ) ， E
+4
+(0,0,1,1), E
+5
+( 0 , 1 , 0 , 0 ) , E
+6 
+(1,0,0,0), E
+7
+( 1 , 0 , 0 , 1 ) , E
+8
+( 0 , 1 , 0 , 1 ) , 
+E
+9
+( 0 , 1 , 1 , 0 ) ， E
+10
+( 1 , 0 , 1 , 0 ) , E
+11
+( 0 , 1 , 1 , 0 ) , E
+12
+( 1 , 0 , 1 , 1 ) , E
+13
+( 1 , 1 , 0 , 1 ) , -
+E
+14
+( 1 , 1 , 0 , 0 ) , E
+15
+( 1 , 1 , 1 , 0 ) , and E
+16
+( 1 , 1 , 1 , 1 ) . Based on the previously 
+described replication dynamics equations of the four-party game, the 
+Jacobi matrix is constructed as follows. Subsequently, the sixteen pure 
+strategy equilibria derived from these replication dynamics equations 
+are sequentially incorporated into this Jacobi matrix. For each equilib -
+rium point, the eigenvalues are calculated respectively ( Table 3 ). 
+J =
+⎡
+⎢
+⎢
+⎣
+A
+11
+A
+12
+A
+13
+A
+14
+A
+21
+A
+22
+A
+23
+A
+24
+A
+31
+A
+32
+A
+33
+A
+34
+A
+41
+A
+42
+A
+43
+A
+44
+⎤
+⎥
+⎥
+⎦
+Among them 
+A
+11
+= ( 1   2 x )
+[
+W   C
+b
++ Q + i
+g
+H
+2
++ γ S +
+ 
+i
+g
+H
+1
+  i
+n
+H
+1
+)
+y   i
+n
+H
+2
+z + ( S   γ S ) w
+]
+A
+12
+= x ( 1   x )
+ 
+i
+g
+H
+1
+  i
+n
+H
+1
+)
+A
+13
+= x ( x   1 )(   i
+n
+H
+2
+)
+A
+14
+= x ( x   1 )( S   γ S )
+A
+21
+= y ( y   1 )
+ 
+i
+n
+H
+1
+  i
+g
+H
+1
+)
+A
+22
+= ( 1   2 y )
+[
+R
+1
++ R
+2
++ γ T
+1
+  H
+1
+i
+n
+  C
+g
++ γ ε M +
+ 
+i
+n
+H
+1
+  i
+g
+H
+1
+)
+x
++ ( T
+1
+  γ T
+1
++ ε M   γ ε M ) w
+]
+A
+23
+= 0 
+A
+24
+= y ( 1   y )( T
+1
+  γ T
+1
++ ε M   γ ε M )
+A
+31
+= z ( z   1 )[ H
+2
+i
+n
+  R
+c
+  i ( R
+a
++ R
+b
+  R
+c
+) ]
+A
+32
+= 0 
+A
+33
+= ( 1   2 z ){ R
+a
++ R
+b
+  C
+t
+  H
+2
+i
+n
++ γ T
+2
++ η M   η V + η γ V
++ x [ H
+2
+i
+n
+  R
+c
+  i ( R
+a
++ R
+b
+  R
+c
+) ] + ( η V + T
+2
+  γ T
+2
+  η γ V ) w }
+A
+34
+= z ( 1   z )( η V + T
+2
+  γ T
+2
+  η γ V )
+A
+41
+= w ( 1   w )(   S + γ S )
+A
+42
+= w ( 1   w )( 1   γ )(   T
+1
++ η M   M )
+A
+43
+= w ( 1   w )( 1   γ )(   T
+2
++ ε M   M )
+A
+44
+= ( 1   2 w )[ T
+1
++ T
+2
+  C
+a
+  γ T
+1
+  γ T
+2
++ M   γ M
++ S   γ S   ( S   γ S ) x   ( 1   γ )( T
+1
+  η M + M ) y   ( 1   γ )( T
+2
+  ε M + M ) z ]
+Optimal ESS determination analysis. Since C
+a
+> 0, the equilibrium 
+points E
+11
+( 0 , 1 , 1 , 1 ) and E
+16
+( 1 , 1 , 1 , 1 ) cannot be ESS. Therefore, the 
+evolutionary game system can only converge to 14 pure ESSs. Which of 
+these ESSs is the most ideal state for the game participants to cooperate 
+to promote green transformation of mariculture? Obviously, 
+E
+15
+( 1 , 1 , 1 , 0 ) is the most optimal ESS for the evolutionary game system to 
+converge to the green transformation of mariculture industry, which 
+represents that FIs implement green credit, two types of fishing enter -
+prises carry out green mariculture, and the LGs chooses weak regulation. 
+From the LGs ’ perspective, how to promote the green transformation of 
+the marine mariculture industry for purpose of reducing the cost of 
+government regulation? It depends on the effective combination of 
+various policy tools. Therefore, the dynamic evolution trajectory of the 
+system converging to E
+15
+( 1 , 1 , 1 , 0 ) is analyzed by numerical simulation 
+under different combination of policy tools in the following part.
+6. Numerical simulations
+6.1. Determination of parameters
+According to the existing literature, there are two kinds of parameter 
+values for evolutionary games: one is the direct statistical results, which 
+includes the statistical results of the existing literature, relevant statis -
+tical yearbooks, statistical annual reports of enterprises, and the statis -
+tical result from investigation on site; the other kind is that cannot be 
+Table 3 
+Equilibrium points and eigenvalues of Jacobian matrix.
+Equilibrium point Jacobian matrix eigenvalues
+λ
+1
+λ
+2
+λ
+3
+λ
+4
+E
+1
+( 0 , 0 , 0 , 0 ) W   C
+b
++ i
+g
+H
+2
+R
+1
++ R
+2
++ γ T
+1
+  H
+1
+i
+n
+  C
+g
++ M R
+a
++ R
+b
+  C
+t
++ M   H
+2
+i
+n
++ γ T
+2 T
+1
++ T
+2
+  C
+a
+  γ T
+1
+  γ T
+2
+E
+2
+(0,0,0,1) W   C
+b
++ i
+g
+H
+2
+R
+1
++ R
+2
+  H
+1
+i
+n
+  C
+g
++ M + T
+1
+R
+a
++ R
+b
+  C
+t
++ M   H
+2
+i
+n
++ T
+2 γ T
+2
+  T
+1
+  T
+2
++ C
+a
++ γ T
+1
+E
+3
+( 0 , 0 , 1 , 0 ) W   C
+b
++ i
+g
+H
+2
+  i
+n
+H
+2
+R
+1
++ R
+2
++ γ T
+1
+  H
+1
+i
+n
+  C
+g
++ ε M   R
+a
+  R
+b
++ C
+t
+  M + H
+2
+i
+n
+  γ T
+2 T
+1
+  C
+a
+  γ T
+1
+E
+4
+(0,0,1,1) W   C
+b
++ i
+g
+H
+2
+  i
+n
+H
+2
+R
+1
++ R
+2
+  H
+1
+i
+n
+  C
+g
++ ε M + T
+1
+  R
+a
+  R
+b
++ C
+t
+  M + H
+2
+i
+n
+  T
+2   T
+1
++ C
+a
++ γ T
+1
+E
+5
+( 0 , 1 , 0 , 0 ) W   C
+b
++ i
+g
+H
+2
++ i
+g
+H
+1
+  i
+n
+H
+1
+  R
+1
+  R
+2
+  γ T
+1
++ H
+1
+i
+n
++ C
+g
+  M R
+a
++ R
+b
+  C
+t
+  H
+2
+i
+n
++ γ T
+2
++ η M T
+2
+  C
+a
+  γ T
+2
+E
+6
+(1,0,0,0)   W + C
+b
+  i
+g
+H
+2
+R
+1
++ R
+2
++ γ T
+1
+  C
+g
++ M   i
+g
+H
+1 ( R
+a
++ R
+b
+  R
+c
+)( 1   i )   C
+t
++ M + γ T
+2
+T
+1
++ T
+2
+  C
+a
+  γ T
+1
+  γ T
+2
+E
+7
+( 1 , 0 , 0 , 1 )   W + C
+b
+  i
+g
+H
+2
+R
+1
++ R
+2
+  C
+g
++ M   H
+1
+i
+g
++ T
+1 ( 1   i )( R
+a
++ R
+b
+  R
+c
+)   C
+t
++ M + T
+2
+γ T
+2
+  T
+1
+  T
+2
++ C
+a
++ γ T
+1
+E
+8
+( 0 , 1 , 0 , 1 ) W   C
+b
++ i
+g
+H
+2
++
+ 
+i
+g
+  i
+n
+)
+H
+1
+  R
+1
+  R
+2
++ H
+1
+i
+n
++ C
+g
+  M   T
+1 R
+a
++ R
+b
+  C
+t
++ ( 1 + η ) M   H
+2
+i
+n
++ T
+2
+  T
+2
++ C
+a
++ γ T
+2
+E
+9
+( 0 , 1 , 1 , 0 ) W   C
+b
++
+ 
+i
+g
+  i
+n
+)
+( H
+2
++ H
+1
+)
+  R
+1
+  R
+2
+  γ T
+1
++ H
+1
+i
+n
++ C
+g
+  ε M   R
+a
+  R
+b
++ C
+t
++ H
+2
+i
+n
+  γ T
+2
+  η M   C
+a
+E
+10
+( 1 , 0 , 1 , 0 )   W + C
+b
+  i
+g
+H
+2
++ i
+n
+H
+2
+R
+1
++ R
+2
++ γ T
+1
+  C
+g
+  H
+1
+i
+g
++ ε M ( R
+a
++ R
+b
+  R
+c
+)( i   1 ) + C
+t
+  M   γ T
+2
+( 1   γ ) T
+1
+  C
+a
+E
+11
+( 0 , 1 , 1 , 1 ) W   C
+b
++
+ 
+i
+g
+  i
+n
+)
+( H
+2
++ H
+1
+)
+  R
+1
+  R
+2
++ H
+1
+i
+n
++ C
+g
+  ε M   T
+1   R
+a
+  R
+b
++ C
+t
+  ( 1 + η ) M + H
+2
+i
+n
+  T
+2
+C
+a
+E
+12
+( 1 , 0 , 1 , 1 )   W + C
+b
+  i
+g
+H
+2
++ i
+n
+H
+2
+R
+1
++ R
+2
+  H
+1
+i
+g
+  C
+g
++ ε M + T
+1 ( i   1 )( R
+a
++ R
+b
+  R
+c
+) + C
+t
+  M   T
+2
+( γ   1 ) T
+1
++ C
+a
+E
+13
+( 1 , 1 , 0 , 1 )   W + C
+b
+  i
+g
+H
+2
+ 
+ 
+i
+g
+  i
+n
+)
+H
+1
+  R
+1
+  R
+2
++ C
+g
+  M + H
+1
+i
+g
+  T
+1 ( 1   i )( R
+a
++ R
+b
+  R
+c
+)   C
+t
++ η M + T
+2
+( γ   1 ) T
+2
++ C
+a
+E
+14
+( 1 , 1 , 0 , 0 )   W + C
+b
+  i
+g
+H
+2
+  i
+g
+H
+1
++ i
+n
+H
+1
+  R
+1
+  R
+2
+  γ T
+1
++ C
+g
+  M + i
+g
+H
+1 ( 1   i )( R
+a
++ R
+b
+  R
+c
+)   C
+t
++ η M + γ T
+2
+( 1   γ ) T
+2
+  C
+a
+E
+15
+( 1 , 1 , 1 , 0 )   W + C
+b
++
+ 
+i
+n
+  i
+g
+)
+( H
+2
++ H
+1
+)
+  R
+1
+  R
+2
+  γ T
+1
++ C
+g
++ H
+1
+i
+g
+  ε M ( i   1 )( R
+a
++ R
+b
+  R
+c
+) C
+t
+  η M   γ T
+2
+  C
+a
+E
+16
+( 1 , 1 , 1 , 1 )   W + C
+b
++
+ 
+i
+n
+  i
+g
+)
+( H
+2
++ H
+1
+)
+  R
+1
+  R
+2
++ H
+1
+i
+g
++ C
+g
+  ε M   T
+1 ( i   1 )( R
+a
++ R
+b
+  R
+c
+) + C
+t
+  η M   T
+2
+C
+a
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+7 
+===== PAGE 8 =====
+obtained by visual observation, but can be inferred and estimated by 
+combining the references, scenario simulation, and expert suggestions. 
+This paper synthesizes two methods above. The first “ calibrates ” the 
+parameters by referring to previous studies and actual economic data. 
+The second estimates the appropriate values by scenario simulation 
+based on the actual values while considering the scale. And the data are 
+from the three sources. First, the loan interest rates ( i
+n
+, i
+g
+), government 
+subsidies ( J ), and government regulatory costs ( C
+a
+) were obtained from 
+the Chinese financial market and China Environmental Yearbook 2022. 
+It takes i
+n
+= 0 . 5, i
+g
+= 0 . 3 with reference to the People ’ s Bank of China ’ s 
+quoted market interest rate for loans and the People ’ s Bank of China ’ s 
+current interest rate table for RMB. Meanwhile, the official subsidy fund 
+of the government is represented with the Central Environmental Pro -
+tection Special Fund ” of the current year; And the Government Super -
+vision Cost ” is represented with the Supervision Budget of 
+Environmental Supervision Department ” of the current year. So, the 
+ratio of the two was determined as 0 . 35 : 0 . 03. Thus, J = 0 . 35, C
+a
+=
+0 . 03. Second, the data related to fishing enterprises are mainly from the 
+field research and interviews. In order to obtain first-hand data, in -
+terviews and surveys were conducted among fishery enterprises in 
+Shandong, China. The ocean ranch enterprises were regarded as GFEs, 
+and the rest were regarded as TFEs. The research data include, but are 
+not limited to Operating cost ( C
+1
++ C
+g
+, C
+2
++ C
+t
+), R & D and environmental 
+protection investment ( C
+g
+, C
+t
+), net profit (the total revenue of both 
+traditional and green mariculture) ( R
+ʹ
++ R
+1
+, R
+ʹ ʹ
++ R
+b
+), environmental 
+protection tax collected (T
+1
+,T
+2
+), and asset profit margin ( π
+1
+, π
+2
+). Based 
+on the research data, it was determined that the parameters above were 
+assigned the following values: C
+g
+= 1 . 1, C
+t
+= 1 . 2, R
+ʹ
++ R
+1
+= 4, R
+ʹ ʹ
++ R
+b
+=
+1 . 4, T
+1
+= 0 . 16, T
+2
+= 0 . 17, π
+1
+= 0 . 03 , π
+2
+= 0 . 025. Third, for the param -
+eters that are not directly observable, the assignment is determined 
+based on the relationship with other parameters or by referring to the 
+relevant literature. The parameters mainly includes the green benefits of 
+fishing enterprises ( R
+2
+, R
+b
+), the amount of loans to fishing enterprises 
+( H
+1
+, H
+2
+), the benefits of loans to fishing enterprises and the benefits of 
+cheating ( R
+1
+, R
+a
+, R
+c
+), the benefits of FIs ’ cost of loans ( C
+b
+, W ), and the 
+amount of the peer-to-peer incentives levied ( V ). The assignment of the 
+parameters above is explained as follows. ( Alsaleh et al., 2024 ) Since it is 
+difficult to observe the green returns of enterprises directly from the 
+total returns, the ratio of green returns to normal returns of fishing en -
+terprises was determined to be 2 : 5 according to Yu et al. (2023) , so as 
+to the determination of R
+2
+= 1 . 15, R
+b
+= 0 . 4. (1) Based on the cost effect, 
+the loan amount of fishing enterprises should cover the cost burden of 
+green mariculture at least, so that H
+1
+= 1 . 1, H
+2
+= 1 . 2. (2) TFEs fraud -
+ulent loan revenue is from the profit of the loan. Therefore, the revenue 
+of the loan of GFEs and TFEs each year are as follows: R
+1
+= 1 . 1 π
+1
+=
+0 . 033 , R
+a
+= 1 . 2 π
+2
+= 0 . 03 . It is assumed that TFEs can be detected on 
+average in approximately six months when they use peer incentives to 
+make fraudulent loans. Therefore R
+c
+= 0 . 6 π
+2
+= 0 . 015. (3) Under the 
+premise of marketization of interest rates, the cost of credit for FIs will 
+not be less than the interest income, so it can be made C
+b
+= i
+g
+( H
+1
++
+H
+2
+) = 0 . 69. And the FI ’ s long-term income of green credit will not be 
+less than the cost, so it can be made W = 0 . 69. (4) Because the peer 
+incentive policy is proposed on the basis of related theories, the data of 
+peer incentive collection fund is inexistent, so it can be made V = 0. (5) 
+The other parameters are assigned according to the scenario simulation 
+and the expert opinion. Therefore, take γ = 0 . 5 , ε = η = 0 . 5 , λ = 1 , S =
+Q = 0 . 3. The parameter assignments are shown in Table 4 .
+6.2. Baseline scenario simulation
+The simulation of current status of environmental regulation, green 
+credit and green transition in mariculture. For this purpose, the 
+parameter assignments of Table 4 are brought into the evolutionary 
+game system. And the initial probabilities of FIs, GFEs, TFEs and LGs are 
+set as x = 0 . 4 ; y = 0 . 4 ; z = 0 . 2; w = 0 . 6 reference with Yu et al. (2023)
+and Cui et al. (2020) . Then the system ’ s evolutionary trajectory is drawn 
+with Matlab2020b software as shown in Fig. 2 .
+According to Fig. 2 , it can be seen that the system has reached 
+E
+13
+( 1 , 1 , 0 , 1 ) . This indicates that the proportion of green mariculture by 
+TFEs is still low under the two conditions of strict environmental regu -
+lation and the providing of green credit by FIs. This is consistent with the 
+reality that the green transformation of mariculture industry is incom -
+plete in China. On the basis of the asymptotic stabilization conditions for 
+TFEs within the formation of E
+13
+( 1 , 1 , 0 , 1 ) , the inequal -
+ity ( 1   i )( R
+a
++ R
+b
+  R
+c
+)   C
+t
++ η ( L + V ) + T
+2
+< 0 reveals a critical 
+issue. Both of the current level of government subsidies and the green 
+credit interest rate, are insufficient to make TFEs shifting from ’ tradi -
+tional mariculture ’ strategy to ’ green mariculture ’ strategy. This implies 
+that financial constraints remain a key factor in the green transformation 
+of mariculture industry. Therefore, how to optimize the policies for 
+promoting green mariculture among TFEs has become a key issue for 
+accelerating the green transformation mariculture industry in China.
+6.3. Simulation of environmental regulation and green credit policy
+In the baseline scenario, in order to realize TFEs to adopt green 
+mariculture strategy, it is necessary to satisfied the asymptotic stability 
+condition of ( i   1 )( R
+a
++ R
+b
+  R
+c
+) + C
+t
+  γ T
+2
+  η J   η γ V < 0, so as to 
+guarantee the TFEs ’ net benefit positive for choosing the “ green mari -
+culture ” strategy. The asymptotic stability condition above is also a 
+prerequisite for determining the convergence of the system to the ideal 
+ESS E
+15
+( 1 , 1 , 1 , 0 ) when TFEs adopt green mariculture practices. Ac -
+cording to the parameters set in the model regarding environmental 
+regulation and green credit, γ , J , and i
+g
+, which regulates the evolu -
+tionary system to converge to E
+15
+( 1 , 1 , 1 , 0 ) . On the one hand, the in -
+terest rate on loans is determined by the lending market. On the other 
+hand, the intensity of environmental regulation is different due to both 
+of the demand for regional economic development and the progress of 
+public environmental protection awareness in different regions. There -
+fore, keeping other parameters unchanged, the simulation is conducted 
+to analyze system evolution. The focus is on two variables: environ -
+mental regulation intensity and green credit rate. The study examines 
+how changes in these factors impact the system. The results are pre -
+sented in Table 5 .
+Table 5 indicates that the intensity of environmental regulation can 
+regulate TFEs to adopt the “ green mariculture ” strategy under the con -
+dition that FIs ’ green credit gains are ensured with the marketized loan 
+interest rate. When FIs select “ green credit ” strategy and both GFEs and 
+TFEs opt for “ green mariculture ” strategy, “ weak regulation ” will 
+become the LGs ’ optimal strategy in order to reduce regulation costs. 
+Table 4 
+Parameter assignment.
+W C
+b
+H
+2
+i
+g
+i
+n H
+1
+R
+2
+R
+1
+γ T
+1
+C
+t
+Q
+0.69 0.69 1.2 0.3 0.5 1.1 1.15 0.033 0.5 0.16 1.2 0.3
+S C
+g
+ε J C
+a
+V η T
+2
+R
+a
+R
+b
+R
+c
+λ
+0.3 1.1 0.5 0.35 0.03 0 0.5 0.17 0.03 0.4 0.015 1
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+8 
+===== PAGE 9 =====
+Fig. 2. Evolutionary stable equilibrium of the system converging to E
+13
+( 1 , 1 , 0 , 1 ) .
+Table 5 
+Values of i
+g
+, γ and J when the system converges to ( 1 , 1 , 1 , 0 ) .
+J γ = 0 . 1 γ = 0 . 2 γ = 0 . 3 γ = 0 . 4 γ = 0 . 5 γ = 0 . 6 γ = 0 . 7 γ = 0 . 8 γ = 0 . 9
+i
+g
+= 0 . 1 1.619 1.585 1.551 1.517 1.277 1.037 0.797 0.557 0.317
+i
+g
+= 0 . 2 1.702 1.668 1.634 1.600 1.566 1.532 1.498 1.464 1.430
+i
+g
+= 0 . 3 1.785 1.751 1.717 1.683 1.649 1.615 1.581 1.547 1.513
+i
+g
+= 0 . 4 1.868 1.834 1.800 1.766 1.732 1.698 1.664 1.630 1.596
+i
+g
+= 0 . 5 1.951 1.917 1.883 1.849 1.815 1.781 1.747 1.713 1.679
+i
+g
+= 0 . 6 2.034 2.000 1.966 1.932 1.898 1.864 1.830 1.796 1.762
+i
+g
+= 0 . 7 2.117 2.083 2.049 2.015 1.981 1.947 1.913 1.879 1.845
+i
+g
+= 0 . 8 2.200 2.166 2.132 2.098 2.064 2.030 1.996 1.962 1.928
+i
+g
+= 0 . 9 2.283 2.249 2.215 2.181 2.147 2.113 2.079 2.045 2.011
+Fig. 3. The evolution of the minimum J and V when system converges to E
+15
+( 1 , 1 , 1 , 0 ) .
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+9 
+===== PAGE 10 =====
+When the system converges to the optimal ESS E
+15
+( 1 , 1 , 1 , 0 ) , the policy 
+parameters i
+g
+, γ and J exhibit certain patterns. On the one hand, the 
+value of the J declines as the γ increases when maintaining the green 
+credit interest rate i
+g 
+constant. The negative correlation between the two 
+indicates that when the LGs implement environmental regulation, there 
+is a substitution relationship between the intensity of environmental 
+regulation and government subsidy. This suggests that LGs can regulate 
+TFEs to adopt “ green mariculture ” strategy through different combina -
+tions of subsidy funds and intensity of regulation. On the other hand, in 
+the case of maintaining γ , the value of the J increases with the rise of the 
+i
+g
+. The positive correlation between parameter i
+g 
+and J indicates that 
+there is a certain conflict relationship between environmental regulation 
+policy and green credit policy. The increase of the green credit interest 
+rate means that TFEs may receive less benefits from such credit. This 
+leads to a weak willingness to apply for green credit. As a result, green 
+credit becomes less effective in driving the green transformation of the 
+mariculture industry. Therefore, the green transformation of maricul -
+ture may have to rely more on LGs ’ regulatory subsidies, which may 
+undoubtedly increase the pressure on LGs environmental regulation.
+6.4. Simulation of environmental regulation and peer incentive
+From the analysis presented in Section 6.3 , it can be seen that there is 
+a certain conflict between environmental regulation and green credit. 
+When the interest rate on green credit rises, the burden of environmental 
+regulation on LGs may increase under the condition of variable market 
+interest rates. The peer incentives can be defined as multi-channel 
+financing without punitive incentives. These incentives rewards in -
+dividuals in a group for superior performance. The mechanism involves 
+collecting peer incentives from the group to enhance the performance of 
+the whole group. Then, what is the relationship between peer incentives 
+policy and environmental regulatory policy?
+According to Table 3 , the asymptotic stabilization condition ( i  
+1 )( R
+a
++ R
+b
+  R
+c
+) + C
+t
+  γ T
+2
+  η J   η γ V < 0 must be satisfied for TFEs to 
+realize green mariculture. The parameters of the J and V are set in the 
+model for incentive-based environmental regulation and peer in -
+centives, respectively. The minimum value J required to satisfy the 
+change strategy of TFEs is 1.65 when the government only imposes 
+environmental regulation, and the minimum value V required to satisfy 
+the change strategy of TFEs is 2.60 when the LGs only impose peer in -
+centives. The trajectory plots of the system ’ s evolution of the two 
+different scenarios are shown in Fig. 3 (a) and (b), respectively. It shows 
+that, both increasing the amount of peer incentives and official gov -
+ernment subsidies can make the system evolve to the optimal ESS 
+E
+15
+( 1 , 1 , 1 , 0 ) . This indicates that there is a substitution relationship 
+between the peer incentive policy and the governmental environmental 
+regulation. In addition, although the values of J and V are set as the 
+minimum values that make TFEs tend to choose “ green mariculture ” 
+strategies, the probability of government regulation evolves to 1 under 
+environmental regulatory policies alone. And this probability begins to 
+decline after nearly 300 periods, until it evolves to 0 after nearly 700 
+periods. In contrast, when relying only on peer incentive policies, the 
+probability of government regulation starts to decline when it reaches a 
+maximum of 0.95, and the probability tends towards 0 around the 300th 
+period. This comparison suggests that peer incentive policies are more 
+efficient than environmental regulation policies in promoting the green 
+transformation of mariculture.
+6.5. Simulation of environmental regulation, green credit and peer 
+incentive
+The analysis above reveals a conflictual relationship between green 
+credit and environmental regulation policies. The positive changes in 
+green credit interest rates may increase the cost of environmental 
+regulation. In addition, as an important complement to environmental 
+regulation, peer incentive policy is more efficient than LGs ’ subsidies. 
+Therefore, in the background that both of green credit and environ -
+mental regulation policies have already been implemented, it is 
+worthwhile to explore how the synergy of the three policies will affect 
+the green transformation of mariculture if peer incentive policy is 
+implemented. So, changing the peer incentive contribution V from 0 to 1 
+indicates that LGs implement this policy in the simulation. Then a 
+simulation is conducted to analyze the impacts of two variables on 
+system evolution: changes in the intensity of environmental regulation 
+and the interest rate of green credit. All other parameters are kept un -
+changed during the simulation. The results are shown in Table 6 .
+According to Table 6 , the implementation of the peer incentive 
+policy does not change the system ’ s convergence to E
+15
+( 1 , 1 , 1 , 0 ) and 
+the pattern of change between i
+g
+, γ and J . However, the amount of 
+government subsidy J is reduced at the same level of environmental 
+regulation γ and green credit rate i
+g
+. This indicates that the imple -
+mentation of the peer incentive policy is beneficial to strengthening the 
+incentive effect of green credit and alleviating the pressure on the LGs. 
+Specifically, the implementation of the peer incentive policy has indi -
+rectly increased the opportunity cost of traditional mariculture for 
+fishing enterprises. Therefore, when they continue with traditional 
+mariculture, they are unable to recover the incentives they have paid nor 
+enjoy the subsidies provided by the LGs. Thus, they have been forced to 
+choose the green mariculture strategy, which is conducive to exerting 
+the positive incentive effect of green credit in promoting the green 
+transformation of mariculture. Furthermore, as TFEs become increas -
+ingly amenable to adopting green practices, the LGs can promote the 
+green transformation with lower subsidies, which enhances the efficacy 
+of environmental regulatory policies.
+6.6. Simulation of peer incentive allocation
+Peer incentive policy can facilitate the incentive effect of green credit 
+to reduce the pressure of government regulation. However, how to 
+allocate the peer incentive payment in different levels to different types 
+of enterprises? This is an issue that must be considered when imple -
+menting this policy. Therefore, this section examines the impacts of 
+different-level peer incentive payments of different types of fishing en -
+terprises on the green transformation of the mariculture industry when 
+the peer incentive policy is implemented. In terms of parameterization, 
+Table 6 
+Values of i
+g
+, γ and J when the system converges to ( 1 , 1 , 1 , 0 ) at V = 1.
+J γ = 0 . 1 γ = 0 . 2 γ = 0 . 3 γ = 0 . 4 γ = 0 . 5 γ = 0 . 6 γ = 0 . 7 γ = 0 . 8 γ = 0 . 9
+i
+g
+= 0 . 1 1.519 1.385 1.251 1.117 0.983 0.849 0.715 0.581 0.447
+i
+g
+= 0 . 2 1.602 1.468 1.334 1.200 1.066 0.932 0.798 0.664 0.530
+i
+g
+= 0 . 3 1.685 1.551 1.417 1.283 1.149 1.015 0.881 0.747 0.613
+i
+g
+= 0 . 4 1.768 1.634 1.500 1.366 1.232 1.098 0.964 0.830 0.696
+i
+g
+= 0 . 5 1.851 1.717 1.583 1.449 1.315 1.181 1.047 0.913 0.779
+i
+g
+= 0 . 6 1.934 1.800 1.666 1.532 1.398 1.264 1.130 0.996 0.862
+i
+g
+= 0 . 7 2.017 1.883 1.749 1.615 1.481 1.347 1.213 1.079 0.945
+i
+g
+= 0 . 8 2.100 1.966 1.832 1.698 1.564 1.430 1.296 1.162 1.028
+i
+g
+= 0 . 9 2.183 2.049 1.915 1.781 1.647 1.513 1.379 1.245 1.111
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+10 
+===== PAGE 11 =====
+let V = 1 remain unchanged, and ε and η denote the proportions levied 
+on GFEs and TFEs, respectively, under the condition that the total 
+amount of peer incentive payments remains unchanged. According to 
+the relationship between the two variables, it can be seen that ε in -
+creases as η decreases. Let ε = 0 . 1 and ε = 0 . 8, under the condition of 
+unchanged total amount of peer incentive payment. The impacts of the 
+implementation of both green credit and environmental regulation 
+policies is explored when different levels of peer incentives are levied on 
+the two types of fishing enterprises. The results are shown in Table 7 and 
+Table 8 , respectively. The simulation results are analyzed as follows. 
+(1) Table 7 illustrates that peer incentive policy can better relieve the 
+conflict between environmental regulation and green credit. This 
+occurs when the percentage of peer incentives levied on GFEs is 
+low and the percentage levied on TFEs is high under the condition 
+of unchanged total amount of peer incentive payment. On the one 
+hand, compared with that shown in Table 6 , the official govern -
+ment subsidy J is reduced under the condition of same value of γ 
+and i
+g
+. It indicates that a lower percentage of peer incentives from 
+GFEs can reduce GFEs ’ financial burden and encourage them to 
+maintain or even expand green production scale, which is 
+conducive to the incentive effect of green credit. And a higher 
+percentage of peer incentives from TFEs can increase the oppor -
+tunity cost to maintain traditional mariculture, so as to force TFEs 
+to shift to environmentally friendly mariculture. In this way, the 
+government subsidies are reduced. On the other hand, when the 
+green credit interest rate i
+g 
+of FIs is lower than 0.5, the LGs can 
+make TFEs to adopt green mariculture strategies only through 
+enhancing the intensity of environmental regulation γ without 
+providing subsidy funds J . This reveals that in the case of low 
+green credit rates, the LGs can effectively incentivize TFEs to 
+make a green transition by strengthening regulatory measures 
+without financial subsidies.
+(2) Table 8 illustrates that the financial burden on the LGs is 
+increased and the green credit incentive effects impaired when a 
+greater proportion of peer incentives is imposed from GFEs and a 
+smaller proportion from TFEs. In comparison to Table 6 , it can be 
+seen that under the condition of same value of γ and i
+g
+, the LGs 
+need to spend more funds in order to make TFEs to choose green 
+mariculture. Specially, it will place a greater economic burden on 
+fishing enterprises that have already incurred the transition costs 
+to adopt green production when the proportion of levies on GFEs 
+is higher and the proportion of levies on TFEs is lower. This is not 
+conducive to maintaining or increasing their willingness and 
+ability to engage in green mariculture. Nevertheless, reducing the 
+proportion of levies on TFEs can reduce their costs of maintaining 
+traditional mariculture, diminishing their willingness to innovate 
+in green mariculture technology. Therefore, TFEs ’ demand for 
+funds for innovation in green mariculture technology is reduced, 
+which is not conducive to the implementation of the green credit 
+policy. Consequently, the financial burden on governments is 
+increased for the LGs to regulate the environment.
+6.7. Simulation of supervisory efficiency of GFEs
+The necessity for GFEs to monitor TFEs. It is difficult for TFEs to 
+obtain green credit support from FIs due to the high cost of green 
+mariculture and the constraints of financing conditions. Driven by peer 
+incentives and social responsibility, some GFEs reach interest agree -
+ments with TFEs for the purpose of maximization of their own welfare 
+and overall social interests. According to the interest agreements, GFEs 
+assist TFEs in getting a green loan from FIs by utilizing their business 
+performance, assets and liabilities, and social reputation. However, TFEs 
+may also engage in fraudulent lending behaviors. Therefore, GFEs 
+should also do a good job of post-credit tracking and management when 
+endorsing credit for TEFs, so as to distinguish fraudulent lending be -
+haviors in time and reduce economic losses. If the supervision of GFEs is 
+inadequate, it will not only be difficult to realize the innovative 
+compensation effect of green credit, but also affect the synergistic effect 
+of green credit and environmental regulation policies. The setup of the 
+model shows that the monitoring efficiency of GFEs determines the 
+profit gained by TFEs from fraudulent lending with help of GFEs. When 
+the monitoring efficiency of GFEs is higher, it will be faster for GFEs to 
+find the fraudulent behaviors of TFEs. Therefore, make R
+c
+= 0 . 01 and 
+keep other parameters unchanged. Re-simulate the impact of environ -
+mental regulation and green credit on the effect of green transformation 
+in the mariculture industry under the condition of changing the moni -
+Table 7 
+Values of i
+g
+, γ and J for the system converging to (1,1,1,0) at V = 1 ; ε = 0 . 1.
+J γ = 0 . 1 γ = 0 . 2 γ = 0 . 3 γ = 0 . 4 γ = 0 . 5 γ = 0 . 6 γ = 0 . 7 γ = 0 . 8 γ = 0 . 9
+i
+g
+= 0 . 1 1.439 1.225 1.011 0.797 0.583 0.369 0.155 0 0
+i
+g
+= 0 . 2 1.522 1.308 1.094 0.880 0.666 0.452 0.238 0.024 0
+i
+g
+= 0 . 3 1.605 1.391 1.177 0.963 0.749 0.535 0.321 0.107 0
+i
+g
+= 0 . 4 1.688 1.474 1.260 1.046 0.832 0.618 0.404 0.190 0
+i
+g
+= 0 . 5 1.771 1.557 1.343 1.129 0.915 0.701 0.487 0.273 0.059
+i
+g
+= 0 . 6 1.854 1.640 1.426 1.212 0.998 0.784 0.570 0.356 0.142
+i
+g
+= 0 . 7 1.937 1.723 1.509 1.295 1.081 0.867 0.653 0.439 0.225
+i
+g
+= 0 . 8 2.020 1.806 1.592 1.378 1.164 0.950 0.736 0.522 0.308
+i
+g
+= 0 . 9 2.103 1.889 1.675 1.461 1.247 1.033 0.819 0.605 0.391
+Table 8 
+Values of i
+g
+, γ and J for the system converging to (1,1,1,0) at V = 1 ; ε = 0 . 8.
+J γ = 0 . 1 γ = 0 . 2 γ = 0 . 3 γ = 0 . 4 γ = 0 . 5 γ = 0 . 6 γ = 0 . 7 γ = 0 . 8 γ = 0 . 9
+i
+g
+= 0 . 1 1.579 1.505 1.431 1.357 1.283 1.209 1.135 1.061 0.987
+i
+g
+= 0 . 2 1.662 1.588 1.514 1.440 1.366 1.292 1.218 1.144 1.070
+i
+g
+= 0 . 3 1.745 1.671 1.597 1.523 1.449 1.375 1.301 1.227 1.153
+i
+g
+= 0 . 4 1.828 1.754 1.680 1.606 1.532 1.458 1.384 1.310 1.236
+i
+g
+= 0 . 5 1.911 1.837 1.763 1.689 1.615 1.541 1.467 1.393 1.319
+i
+g
+= 0 . 6 1.994 1.920 1.846 1.772 1.698 1.624 1.550 1.476 1.402
+i
+g
+= 0 . 7 2.077 2.003 1.929 1.855 1.781 1.707 1.633 1.559 1.485
+i
+g
+= 0 . 8 2.160 2.086 2.012 1.938 1.864 1.790 1.716 1.642 1.568
+i
+g
+= 0 . 9 2.243 2.169 2.095 2.021 1.947 1.873 1.799 1.725 1.651
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+11 
+===== PAGE 12 =====
+toring efficiency of GFEs. The results show in Table 9 .
+The results of the simulation demonstrate that the increased effi -
+ciency of GFEs ’ monitoring can relieve the conflict between green credit 
+and environmental regulation. As demonstrated in Table 9 , the 
+increased monitoring efficiency of GFEs does not change the stability of 
+the evolutionary system, which still converges to ( 1 , 1 , 1 , 0 ) . And it does 
+not change the relationship among i
+g
+, γ and J . However, the government 
+subsidy J is reduced under the same values of i
+g 
+and γ , which indicates 
+that the increased monitoring efficiency of GFEs can reduce the conflict 
+between the environmental regulation and green credit policy. Specif -
+ically, the enhanced GFEs ’ supervision to TFEs can reduce the benefits 
+from “ loan fraud ” of TFEs, which in turn reduces the possibility of “ loan 
+fraud ” of TFEs. At the same time, the enhanced supervision ensures that 
+the TFEs make good use of the loans to really conduct the green mari -
+culture practices, rather than being misappropriated or abused. Thus, 
+both of the incentive effect of green credit and environmental regulation 
+are given full play in green mariculture by guaranteeing the rational use 
+of green loans. In addition, the improvement of the monitoring effi -
+ciency of GFEs also indicates that the possibility for TFEs to realize green 
+mariculture has been increased by non-government external factors, 
+which reduces the dependence on government subsidies. Therefore, the 
+pressure on government financial subsidies is reduced.
+7. Case study
+Case studies help to extract the characteristics and patterns of com -
+plex phenomena, capturing and addressing emerging issues in man -
+agement practices. To this end, this paper uses the case of promoting the 
+construction of the “ Blue Granary ” in Putuo District, Zhoushan City, 
+Zhejiang Province, to explore and verify the feasibility of the peer 
+incentive policy proposed in this study.
+Putuo District, Zhoushan City, Zhejiang Province, is located in the 
+core area of the East China Sea fishing grounds, with abundant marine 
+resources and a long-standing fishing tradition. However, issues such as 
+the decline of nearshore fisheries resources, increasing environmental 
+pollution, and the inefficiency of traditional aquaculture models have 
+become increasingly prominent. To address these challenges, the Putuo 
+District government has set the goal of constructing the “ Blue Granary, ” 
+actively exploring pathways for the transformation to green aquacul -
+ture, and becoming a demonstration zone for the green development of 
+China ’ s marine aquaculture industry.
+Putuo District took the lead in attempting the government-enterprise 
+joint investment ” model. Specifically, this model involves the govern -
+ment guiding enterprises to jointly contribute funds, establishing a 
+dedicated fund pool to support green technology research and the 
+ecological transformation of fish farms. As a result, Putuo District 
+gradually established an incentive mechanism centered on the 
+government-managed fund + targeted disbursement, ” assisting the local 
+marine aquaculture industry in achieving green transformation. Over 
+the past five years, the government leveraged 80 million yuan of fiscal 
+funds to attract over 160 million yuan from enterprises, driving the 
+implementation of five key projects, including the intelligent factory- 
+based farming of king crabs, ecological farming of swimming crabs, 
+and green farming of shallow-sea shellfish and algae, resulting in an 
+annual output value exceeding 210 million yuan. Additionally, the local 
+government has prioritized financial security, collaborating with large 
+marine ranching enterprises to implement the fisheries mutual insur -
+ance financial subsidy policy for aquaculture entities, and introducing 
+the “ Fishing Guarantee Loan, ” which exempts counter-guarantees, to 
+assist local aquaculturists and cooperatives, as well as other vulnerable 
+aquaculture entities, in securing financing. In the past two years, this 
+policy has provided loan support of 31.8 million yuan to several enter -
+prises, significantly reducing the financing risks for vulnerable aqua -
+culture entities.
+It is evident that the government of Putuo District, Zhoushan City, 
+Zhejiang Province, has not only alleviated fiscal pressure through 
+government-enterprise joint investment and financial guarantees, but 
+also provided credit support to aquaculture enterprises facing diffi -
+culties in securing loans, effectively addressing the financing challenges. 
+This provides practical evidence for the peer incentive policy proposed 
+in this paper, validating its feasibility.
+8. Conclusions and implications
+8.1. Conclusions
+This paper addresses two practical issues: limited government fiscal 
+subsidies and high loan thresholds for polluting enterprises, by con -
+structing a peer incentive mechanism. From a theoretical perspective, 
+this paper explores the necessary conditions for the green trans -
+formation of the marine aquaculture industry under this mechanism, 
+and uses numerical simulation methods to conduct policy simulations. 
+Subsequently, this paper also systematically analyzes the impact of 
+several potential factors on the effectiveness of policy implementation. 
+The results of the study are as follows: 
+(1) There is a conflict relationship between environmental regulation 
+and green credit. Existing literature generally focuses on the in -
+dependent roles of environmental regulation and green credit in 
+the green transformation of the marine aquaculture industry 
+( Osmundsen et al., 2022 ; Xu and Zhu, 2024 ), with limited 
+exploration of their synergistic effects. This paper, based on 
+evolutionary game theory, uses numerical simulation methods to 
+explore the synergistic effects of environmental regulation and 
+green credit in the green transformation of the marine aquacul -
+ture industry. The study shows that under the premise that 
+market interest rates are variable, as green credit interest rates 
+rise, the conflict between environmental regulation and green 
+credit will significantly intensify, thereby affecting the green 
+aquaculture returns of GFEs and TFEs. Therefore, to mitigate the 
+negative effects of this conflict, the LGs need to increase the 
+subsidy intensity. However, the increase in subsidies undoubt -
+edly increases the LGs ’ fiscal pressure. This finding expands the 
+current understanding of the relationship between environmental 
+regulation and green credit, providing a theoretical basis for the 
+formulation of more refined policy solutions.
+Table 9 
+Values of i
+g
+, γ and J for the system converging to (1,1,1,0) at V = 1 ; R
+c
+= 0 . 01.
+J γ = 0 . 1 γ = 0 . 2 γ = 0 . 3 γ = 0 . 4 γ = 0 . 5 γ = 0 . 6 γ = 0 . 7 γ = 0 . 8 γ = 0 . 9
+i
+g
+= 0 . 1 1.510 1.376 1.242 1.108 0.974 0.84 0.706 0.572 0.438
+i
+g
+= 0 . 2 1.593 1.459 1.325 1.191 1.057 0.923 0.789 0.655 0.521
+i
+g
+= 0 . 3 1.676 1.542 1.408 1.274 1.14 1.006 0.872 0.738 0.604
+i
+g
+= 0 . 4 1.759 1.625 1.491 1.357 1.223 1.089 0.955 0.821 0.687
+i
+g
+= 0 . 5 1.842 1.708 1.574 1.44 1.306 1.172 1.038 0.904 0.77
+i
+g
+= 0 . 6 1.925 1.791 1.657 1.523 1.389 1.255 1.121 0.987 0.853
+i
+g
+= 0 . 7 2.008 1.874 1.74 1.606 1.472 1.338 1.204 1.07 0.936
+i
+g
+= 0 . 8 2.091 1.957 1.823 1.689 1.555 1.421 1.287 1.153 1.019
+i
+g
+= 0 . 9 2.174 2.04 1.906 1.772 1.638 1.504 1.37 1.236 1.102
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+12 
+===== PAGE 13 =====
+(2) Peer incentive policy can not only substitute for environmental 
+regulation, but also mitigate the loss of conflict between envi -
+ronmental regulation and green credit, thereby reducing the 
+financial pressure in the green transformation of the marine 
+aquaculture industry. Existing literature on addressing the 
+financial pressures of industrial green transformation primarily 
+focuses on incentive measures such as “tax incentives” ( Boubaker 
+et al., 2024 ), “government subsidies” ( Wu et al., 2022 ; Wan et al., 
+2023 ), and “green credit” ( Shan et al., 2023 ; Thompson, 2022 ). 
+However, these traditional financial support policies generally 
+face challenges such as heavy fiscal burdens, limited funding 
+supply, and short policy durations. To address this, this paper 
+proposes a non-punitive green incentive mechanism with multi -
+ple funding channels” – the peer incentive policy – based on both 
+theoretical and practical foundations, and applies this policy to 
+the marine aquaculture industry. The study indicates that the 
+peer incentive policy not only can be a complement to incentive- 
+based environmental regulation, but also more efficient than 
+incentive-based environmental regulation in promoting green 
+mariculture. In addition, peer incentive policy can give play the 
+green credit incentive effect to reduce government regulatory 
+pressure.
+(3) Both of the allocation ratio of peer incentive levy and the effi -
+ciency of monitoring of GFEs to TFEs can regulate the synergistic 
+effect among environmental regulation, green credit and peer 
+incentives. To further optimize the role of the peer incentive 
+policy in the green transformation of the marine aquaculture 
+industry, this paper uses numerical simulation methods to adjust 
+the relevant parameters. The results show that, on the one hand, 
+peer incentive policy can better mitigate the loss of implementing 
+the environmental regulation and green credit under the condi -
+tion of a higher proportion of levies on GFEs and a lower pro -
+portion of levies on TFEs. Conversely, if the collection ratios are 
+set improperly, this loss effect will be exacerbated. On the other 
+hand, the increased monitoring efficiency of GFEs to TFEs can 
+also reduce the loss of implementing the environmental regula -
+tion and green credit. These findings not only clarify the key 
+regulatory factors in the implementation of the peer incentive 
+policy but also provide a quantitative basis for optimizing policy 
+parameters, contributing to enhancing the precision and effec -
+tiveness of policy implementation.
+8.2. Implications
+Based on the findings of the study, this paper makes the following 
+implications. 
+(1) The LGs should strengthen the implementation of incentive-based 
+environmental regulatory policies to motivate fisheries enter -
+prises to gain a competitive advantage in the market by choosing 
+green mariculture. On the one hand, the environmental tax sys -
+tem should be optimized to reduce the tax burden on GFEs. The 
+government may implement favorable environmental tax rates to 
+reduce the operating costs and green credit burdens for the 
+fishing enterprises to conduct green aquaculture projects. In this 
+way, a win-win situation in terms of both economic and envi -
+ronmental benefits can be achieved through incentivizing fish -
+eries enterprises to adopt more environmentally friendly 
+technologies and cleaner aquaculture methods. On the other 
+hand, the LGs may expand the sources of government subsidy 
+funds. The sources of government subsidy funds may be enriched 
+by issuing green bonds and setting up green investment fund. At 
+the same time, the LGs can also adopt certain measures to attract 
+and encourage private and international capital to invest in green 
+aquaculture, so as to accelerate the process of green trans -
+formation of the mariculture industry.
+(2) Green equity and the differentiated credit policies can be imple -
+mented to reduce financial risks, so as to support the develop -
+ment of green mariculture. On the one hand, fishing enterprises 
+can make good use of green equity to supplement their repayment 
+sources. They can actively explore paths to convert their effec -
+tiveness in ecological protection into economic value to supple -
+ment additional sources of repayment, such as carbon emissions 
+trading, sewage treatment fee rights, sewage rights. In this way, 
+the gain from the green equity could be a part of the funding 
+sources of repayment. Consequently, the loan risks can be 
+reduced for the FIs at the same time. On the other hand, differ -
+entiated credit policies could be implemented. For green credit 
+projects undertaken by large and medium-sized fishery enter -
+prises, FIs could grant preferential policies. These policies may 
+include loan access, interest rate pricing, loan term, and guar -
+antee methods, provided FIs remain financially sustainable. This 
+approach aims to support the sustainable mariculture 
+development.
+(3) The LGs could optimize the use of green credit resources by 
+improving the precision of green credit policies and expanding 
+support of small and medium-sized enterprises. On the one hand, 
+the targeting accuracy of green credit policies could be improved. 
+The government and enterprises could collaborate to build a 
+digital information-sharing platform to realize transparent 
+sharing of policy guidance and scientific achievement on green 
+aquaculture. This platform not only facilitates the supervision of 
+lenders’ fisheries enterprises but also strengthen the govern -
+ment’s oversight on the marine mariculture industry. In this way, 
+the space for enterprises to seek rent could be limited, so as to 
+improve the efficiency of the use of green credit funds. On the 
+other hand, the green credit policy may be moderated to be in 
+favor of TFEs. The government could provide credit endorsement 
+for TFEs with targeted procurement to reduce the credit risk. In 
+this way, the difficulties of financing of TFEs could be relieved. 
+This approach not only ensures that the nature of green credit 
+remains unchanged as well as the standard impaired but also 
+expands the proportion of green credit granted to TFEs.
+(4) The government may implement a peer incentive policy to 
+accelerate the green transformation of the mariculture industry. 
+In this paper, the positive effect of peer incentive mechanism on 
+the green transformation of mariculture industry is verified better 
+than environmental regulation policies. Therefore, the LGs could 
+establish a peer incentive fund pool to incentive fishing enter -
+prises to engage in green mariculture. The peer incentive fund 
+pool can be funded by multiple entities and from multiple sour -
+ces, such as peer incentive levies, environmental penalty levies, 
+and public benefit donations. In addition, a differentiated levy 
+rate for peer incentives can be implemented. For fishing enter -
+prises with poor environmental performance, the collection ratio 
+could be higher to force them to carry out green transformation. 
+While for fishing enterprises with good environmental perfor -
+mance, the collection ratio could be lower to reward them for 
+their great effort to carry out green transformation and adopt 
+clean mariculture technologies.
+8.3. Limitations
+Based on theoretical and practical foundations, this paper proposes 
+the peer incentive mechanism as an effective supplement in the green 
+transformation of the marine aquaculture industry, addressing issues 
+such as limited government fiscal subsidies and high loan thresholds for 
+polluting enterprises. This paper also explores its advantages in allevi -
+ating financial pressure and promoting the synergistic effects of green 
+credit and environmental regulation. However, despite providing a new 
+theoretical framework and policy recommendations, the following 
+limitations still exist: Firstly, the model assumptions in this paper are 
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+13 
+===== PAGE 14 =====
+based on a series of idealized conditions, which may not fully account 
+for the complexities in real-world operations. For instance, the actual 
+implementation of the policy may be influenced by other stakeholders, 
+such as the central government, environmental agencies, and coastal 
+communities, which are not represented in the model. Secondly, this 
+paper primarily focuses on theoretical analysis and numerical simula -
+tion results, lacking sufficient empirical data support. Although case 
+study is used to attempt to validate the policy effects, due to the lack of 
+extensive cross-regional and cross-industry empirical studies, it remains 
+difficult to fully assess the application effects and long-term impacts of 
+the peer incentive mechanism in different contexts. Finally, the imple -
+mentation of the peer incentive mechanism still faces practical chal -
+lenges. On one hand, due to the existence of different types of fishing 
+enterprises within the industry, especially the interest differences be -
+tween GFEs and TFEs, GFEs may be unwilling to bear the higher coop -
+eration costs, while TFEs may lack sufficient motivation for green 
+transformation, thus hindering the effective promotion of the peer 
+incentive mechanism. On the other hand, issues such as cost problems 
+during policy implementation, regulatory efficiency, and the reasonable 
+collection and distribution ratio of incentive funds may all affect the 
+effectiveness of policy implementation. If the policy design is improper, 
+it may lead to resource wastage or a weakening of the incentive effects, 
+which could affect the overall outcome of the green transformation of 
+the marine aquaculture industry.
+CRediT authorship contribution statement
+An Yan: Writing – original draft, Software, Methodology, Investi -
+gation, Data curation, Conceptualization. Ying Liu: Writing – review & 
+editing, Writing – original draft. Chunyu Lin: Writing – review & 
+editing. Wenwen Gu: Writing – original draft. Qiaorong Yin: Writing – 
+original draft, Software, Methodology, Investigation, Data curation. 
+Xiumei Fu: Writing – review & editing, Writing – original draft, Su -
+pervision, Funding acquisition.
+Funding
+This work was supported by Major Project of the National Natural 
+Science Foundation of China (No. 42176126).
+Declaration of competing interest
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+Acknowledgments
+Funding from the National Natural Science Foundation of China (No. 
+42176126) is gratefully acknowledged.
+Data availability
+The authors do not have permission to share data.
+References
+Alsaleh, M., Yuan, Y., Longqi, S., 2024. Do global competitiveness factors impact the 
+marine sustainability practices? An empirical evidence from fisheries sector. Bus. 
+Strateg. Environ. 33 (7), 6671 – 6688 .
+Azar, G., Ciabuschi, F., 2017. Organizational innovation, technological innovation, and 
+export performance: the effects of innovation radicalness and extensiveness. Int. Bus. 
+Rev. 26 (2), 324 – 336. https://doi.org/10.1016/j.ibusrev.2016.09.002 .
+Bj ¨ornerstedt, J., Weibull, J.W., 1994. Nash equilibrium and evolution by imitation (no. 
+407). In: IUI Working Paper .
+Boubaker, S., Cheng, F., Liao, J., Yue, S., 2024. Environmental tax incentives and 
+corporate environmental behaviour: an unintended consequence from a natural 
+experiment in China. Eur. Financ. Manag. 30 (2), 800 – 838. https://doi.org/ 
+10.1111/eufm.12445 .
+Chai, S., Zhang, K., Wei, W., Ma, W., Abedin, M.Z., 2022. The impact of green credit 
+policy on enterprises ’ financing behavior: evidence from Chinese heavily-polluting 
+listed companies. J. Clean. Prod. 363, 132458. https://doi.org/10.1016/j. 
+jclepro.2022.132458 .
+Chang, K., Luo, D., Dong, Y., Xiong, C., 2024. The impact of green finance policy on 
+green innovation performance: evidence from Chinese heavily polluting enterprises. 
+J. Environ. Manag. 352, 119961. https://doi.org/10.1016/j.jenvman.2023.119961 .
+Chung, T.S., Low, A., 2017. The impact of investor impatience and environmental 
+turbulence on myopic marketing management and stock performance. Int. J. Res. 
+Mark. 34 (3), 660 – 677. https://doi.org/10.1016/j.ijresmar.2017.01.004 .
+Clinton, B.C., Steinberg, D.C., 2019. Providing the spark: impact of financial incentives 
+on battery electric vehicle adoption. J. Environ. Econ. Manag. 98, 102255. https:// 
+doi.org/10.1016/j.jeem.2019.102255 .
+Cui, H., Wang, R., Wang, H., 2020. An evolutionary analysis of green finance 
+sustainability based on multi-agent game. J. Clean. Prod. 269, 121799. https://doi. 
+org/10.1016/j.jclepro.2020.121799 .
+Dong, J., Shen, M., Yu, X., 2023. Study on the eco-economic efficiency of China ’ s 
+mariculture based on undesirable output. Front. Mar. Sci. 10, 1254537. https://doi. 
+org/10.3389/fmars.2023.1254537 .
+Farmery, A.K., Allison, E.H., Andrew, N.L., Troell, M., Voyer, M., Campbell, B., 
+Eriksson, H., Fabinyi, M., Song, A.M., Steenbergen, D., 2021. Blind spots in visions of 
+a “ blue economy ” could undermine the ocean ’ s contribution to eliminating hunger 
+and malnutrition. One Earth 4 (1), 28 – 38. https://doi.org/10.1016/j. 
+oneear.2020.12.002 .
+Farza, K., Ftiti, Z., Hlioui, Z., Louhichi, W., Omri, A., 2021. Does it pay to go green? The 
+environmental innovation effect on corporate financial performance. J. Environ. 
+Manag. 300, 113695. https://doi.org/10.1016/j.jenvman.2021.113695 .
+Fehr, E., G ¨achter, S., 2002. Altruistic punishment in humans. Nature 415 (6868), 
+137 – 140. https://doi.org/10.1038/415137a .
+Fu, X.M., Wu, W.Y., Lin, C.Y., Ku, H.L., Wang, L.X., Lin, X.H., Liu, Y., 2022. Green 
+innovation ability and spatial spillover effect of marine fishery in China. Ocean 
+Coast. Manag. 228, 106310. https://doi.org/10.1016/j.ocecoaman.2022.106310 .
+Galparsoro, I., Murillas, A., Pinarbasi, K., Sequeira, A.M.M.M., Stelzenmüller, V., 
+Borja, 
+´
+A., O ’ Hagan, A.M., Boyd, A., Bricker, S., Garmendia, J.M., Gimpel, A., 2020. 
+Global stakeholder vision for ecosystem-based marine aquaculture expansion from 
+coastal to offshore areas. Rev. Aquac. 12, 2061 – 2079. https://doi.org/10.1111/ 
+raq.12422 .
+Gao, L., Yan, A., Yin, Q., 2022. An evolutionary game study of environmental regulation 
+strategies for marine ecological governance in China. Front. Mar. Sci. 9, 1048034. 
+https://doi.org/10.3389/fmars.2022.1048034 .
+Greife, M.J., Maume, M.O., 2020. Do companies pay the price for environmental crimes? 
+Consequences of criminal penalties on corporate offenders. Crime Law Soc. Chang. 
+73, 337 – 356. https://doi.org/10.1007/s10611-019-09863-4 .
+Guillen, J., Asche, F., Carvalho, N., Polanco, J.M.F., Llorente, I., Nielsen, R., Nielsen, M., 
+Villasante, S., 2019. Aquaculture subsidies in the European Union: evolution, impact 
+and future potential for growth. Mar. Policy 104, 19 – 28. https://doi.org/10.1016/j. 
+marpol.2019.02.045 .
+Hou, J., Teo, T.S., Zhou, F., Lim, M.K., Chen, H., 2018. Does industrial green 
+transformation successfully facilitate a decrease in carbon intensity in China? An 
+environmental regulation perspective. J. Clean. Prod. 184, 1060 – 1071. https://doi. 
+org/10.1016/j.jclepro.2018.02.311 .
+Huang, S., Fan, Z.P., Wang, X., 2021. Optimal financing and operational decisions of 
+capital-constrained manufacturer under green credit and subsidy. J. Ind. Manag. 
+Optim. 17, 261. https://doi.org/10.3934/jimo.2019110 .
+Huang, Z., Liao, G., Li, Z., 2019. Loaning scale and government subsidy for promoting 
+green innovation. Technol. Forecast. Soc. Chang. 144, 148 – 156. https://doi.org/ 
+10.1016/j.techfore.2019.04.023 .
+Huang, Z., Gao, N., Jia, M., 2023. Green credit and its obstacles: evidence from China ’ s 
+green credit guidelines. J. Corp. Finan. 82, 102441. https://doi.org/10.1016/j. 
+jcorpfin.2023.102441 .
+Karlsson, M., Hovelsrud, G.K., 2021. “ Everyone comes with their own shade of green ” : 
+negotiating the meaning of transformation in Norway ’ s agriculture and fisheries 
+sectors. J. Rural. Stud. 81, 259 – 268. https://doi.org/10.1016/j. 
+jrurstud.2020.10.032 .
+Kessouri, F., McWilliams, J.C., Bianchi, D., Sutula, M., Renault, L., Deutsch, C., Feely, R. 
+A., McLaughlin, K., Ho, M., Howard, E.M., Bednar ˇsek, N., 2021. Coastal 
+eutrophication drives acidification, oxygen loss, and ecosystem change in a major 
+oceanic upwelling system. Proc. Natl. Acad. Sci. 118 (21). https://doi.org/10.1073/ 
+pnas.2018856118 e2018856118. 
+Kidwell, D.S., Blackwell, D.W., Whidbee, D.A., Sias, R.W., 2016. Financial Institutions, 
+Markets, and Money. John Wiley & Sons .
+Kleih, U., Linton, J., Marr, A., Mactaggart, M., Naziri, D., Orchard, J.E., 2013. Financial 
+services for small and medium-scale aquaculture and fisheries producers. Mar. Policy 
+37, 106 – 114 .
+Knapp, Gunnar, Rubino, Michael C., 2016. The political economics of marine 
+aquaculture in the United States. Rev. Fish. Sci. Aquac. 24 (3), 213 – 229. https://doi. 
+org/10.1080/23308249.2015.1121202 .
+Kori ˇcan, M., Per ˇci ´c, M., Vladimir, N., Soldo, V., Jovanovi ´c, I., 2022. Environmental and 
+economic assessment of mariculture systems using a high share of renewable energy 
+sources. J. Clean. Prod. 333, 130072. https://doi.org/10.1016/j. 
+jclepro.2021.130072 .
+Li, J., Liu, W., Liu, D., 2024. Constraints, persuasion or incentives? Marine aquaculture 
+farmers ’ preferences for green marine aquaculture policies based on the choice 
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+14 
+===== PAGE 15 =====
+experiment. Aquac. Econ. Manag. 1 – 22. https://doi.org/10.1080/ 
+13657305.2024.2412856 .
+Lin, C.Y., Dai, G.L., Chen, Z., Wang, S., Liu, Y., Wang, P., Fu, X.M., 2022. Game of marine 
+natural resources management: a strategy for determining rights registration. Water 
+15 (1), 36. https://doi.org/10.3390/w15010036 .
+Liu, J., Zhao, M., Wang, Y., 2020a. Impacts of government subsidies and environmental 
+regulations on green process innovation: A nonlinear approach. Technol. Soc. 63, 
+101417. https://doi.org/10.1016/j.techsoc.2020.101417 .
+Liu, S., Chen, F., Cai, T., Zhao, W., Hu, Y., 2024. The impact of digital economy policy on 
+mariculture green total factor productivity in China. Sustainability 16 (22), 9930. 
+https://doi.org/10.3390/su16229930 .
+Liu, Y., Zhu, J., Li, E.Y., Meng, Z., Song, Y., 2020b. Environmental regulation, green 
+technological innovation, and eco-efficiency: the case of Yangtze river economic belt 
+in China. Technol. Forecast. Soc. Chang. 155, 119993. https://doi.org/10.1016/j. 
+techfore.2020.119993 .
+Maxey, J.D., Wong, S.Y., Hartstein, N.D., Lim, M., Chen, N.G., Bakar, M.S., 2023. Marine 
+finfish aquaculture planning using MCDM and numerical modelling tools to aide 
+industry expansion along the north borneo west coast. Coast. Manag. 51 (1), 65 – 90. 
+https://doi.org/10.1080/08920753.2023.2148860 .
+Milewski, I., Smith, R.E., 2019. Sustainable aquaculture in Canada: lost in translation. 
+Mar. Policy 107, 103571. https://doi.org/10.1016/j.marpol.2019.103571 .
+Osmundsen, T.C., Olsen, M.S., Gauteplass, A., Asche, F., 2022. Aquaculture policy: 
+designing licenses for environmental regulation. Mar. Policy 138, 104978. https:// 
+doi.org/10.1016/j.marpol.2022.104978 .
+Pang, L., Zhu, M.N., Yu, H., 2022. Is green finance really a blessing for green technology 
+and carbon efficiency? Energy Econ. 114, 106272. https://doi.org/10.1016/j. 
+eneco.2022.106272 .
+Petrovi ´c, P., Lobanov, M.M., 2020. The impact of R & D expenditures on CO
+2 
+emissions: 
+evidence from sixteen OECD countries. J. Clean. Prod. 248, 119187. https://doi.org/ 
+10.1016/j.jclepro.2019.119187 .
+Robotham, H., Bustos, E., Ther-Rios, F., Avila, M., Robotham, M., Hidalgo, C., Mu ˜noz, J., 
+2019. Contribution to the study of sustainability of small-scale artisanal fisheries in 
+Chile. Mar. Policy 106, 103514. https://doi.org/10.1016/j.marpol.2019.103514 .
+Roper, S., Tapinos, E., 2016. Taking risks in the face of uncertainty: an exploratory 
+analysis of green innovation. Technol. Forecast. Soc. Chang. 112, 357 – 363. https:// 
+doi.org/10.1016/j.techfore.2016.07.037 .
+Semmler, W., Di Bartolomeo, G., Fard, B.M., Braga, J.P., 2022. Limit pricing and entry 
+game of renewable energy firms into the energy sector. Struct. Chang. Econ. Dyn. 61, 
+179 – 190. https://doi.org/10.1016/j.strueco.2022.01.008 .
+Shan, S., Mirza, N., Umar, M., Hasnaoui, A., 2023. The nexus of sustainable development, 
+blue financing, digitalization, and financial intermediation. Technol. Forecast. Soc. 
+Chang. 195, 122772. https://doi.org/10.1016/j.techfore.2023.122772 .
+Shattock, M., Horvath, A., 2019. The Governance of British Higher Education: The 
+Impact of Governmental, Financial and Market Pressures. Bloomsbury Publishing. 
+https://doi.org/10.1080/00071005.2020.1810482 .
+Shiiba, N., Wu, H.H., Huang, M.C., Tanaka, H., 2022. How blue financing can sustain 
+ocean conservation and development: a proposed conceptual framework for blue 
+financing mechanism. Mar. Policy 139, 104575. https://doi.org/10.1016/j. 
+marpol.2021.104575 .
+Siegrist, M., Bowman, G., Mervine, E., Southam, C., 2020. Embedding environment and 
+sustainability into corporate financial decision-making. Account. Finance 60 (1), 
+129 – 147. https://doi.org/10.1111/acfi.12533 .
+ˇ
+S ¯umakaris, P., Korsakien ˙e, R., 
+ˇ
+S ˇceulovs, D., 2021. Determinants of energy efficient 
+innovation: a systematic literature review. Energies 14 (22), 7777. https://doi.org/ 
+10.3390/en14227777 .
+Thompson, B.S., 2022. Blue bonds for marine conservation and a sustainable ocean 
+economy: status, trends, and insights from green bonds. Mar. Policy 144, 105219. 
+https://doi.org/10.1016/j.marpol.2022.105219 .
+Tirumala, R.D., Upadhyay, K., 2024. Creativity in blue economy financing. In: Routledge 
+Companion to Creativity and the Built Environment. Routledge, pp. 107 – 120 .
+Vriend, N.J., 1996. Rational behavior and economic theory. J. Econ. Behav. Organ. 29 
+(2), 263 – 285. https://doi.org/10.1016/0167-2681(95)00063-1 .
+Wan, X., Wang, K., Fan, X., Xu, W., 2023. Can government subsidy and marine carbon 
+capture, utilization and storage technology improve the decision level of supply 
+chain intellectual property pledge financing? Ocean Coast. Manag. 240, 106663. 
+https://doi.org/10.1016/j.ocecoaman.2023.106663 .
+Wang, W., Mao, W., Wu, R., 2024. The effect of marine pastures on green aquaculture in 
+China. Water 16 (12), 1730. https://doi.org/10.3390/w16121730 .
+Wang, Y., Zhang, Y., 2020. Do state subsidies increase corporate environmental 
+spending? Int. Rev. Financ. Anal. 72, 101592. https://doi.org/10.1016/j. 
+irfa.2020.101592 .
+Wei, L., Bee, M.Y., Poh, S.C., Garg, A., Lin, F., Gao, J., 2023. Soil nutrient distribution 
+and plant nutrient status in a mangrove stand adjacent to an aquaculture farm. 
+Environ. Monit. Assess. 195 (1), 231. https://doi.org/10.1007/s10661-022-10822-1 .
+Wu, H., Chen, Z., Chen, H., Jiang, J., 2022. Modelling the impacts of government 
+subsidies on total factor productivity: an empirical study. Discret. Dyn. Nat. Soc. 
+2022 (1), 4817109. https://doi.org/10.1155/2022/4817109 .
+Xiang, X., Liu, C., Yang, M., 2022. Who is financing corporate green innovation? Int. Rev. 
+Econ. Financ. 78, 321 – 337. https://doi.org/10.1016/j.iref.2021.12.011 .
+Xiao, R., Wei, Y., An, D., Li, D., Ta, X., Wu, Y., Ren, Q., 2019. A review on the research 
+status and development trend of equipment in water treatment processes of 
+recirculating aquaculture systems. Rev. Aquac. 11 (3), 863 – 895. https://doi.org/ 
+10.1111/raq.12270 .
+Xu, W., Zhu, Y., 2024. The effects of green finance on the carbon decoupling of marine 
+fishery: analysis based on Tapio method and EKC model. Front. Environ. Sci. 12, 
+1320318. https://doi.org/10.3389/fenvs.2024.1320318 .
+Yang, C.L., Zhang, B., Charness, G., Li, C., Lien, J.W., 2018. Endogenous rewards 
+promote cooperation. Proc. Natl. Acad. Sci. 115 (40), 9968 – 9973. https://doi.org/ 
+10.1073/pnas.1808241115 .
+Yu, C.H., Wu, X., Zhang, D., Chen, S., Zhao, J., 2021. Demand for green finance: 
+resolving financing constraints on green innovation in China. Energy Policy 153, 
+112255. https://doi.org/10.1016/j.enpol.2021.112255 .
+Yu, J., Han, Q., 2020. Food security of mariculture in China: evolution, future potential 
+and policy. Mar. Policy 115, 103892. https://doi.org/10.1016/j. 
+marpol.2020.103892 .
+Yu, L., Zheng, S., Gao, Q., 2023. Government environmental regulation strategy for new 
+pollutants control in mariculture. Mar. Policy 150, 105545. https://doi.org/ 
+10.1016/j.marpol.2023.105545 .
+Zhang, M., Zhang, X., Song, Y., Zhu, J., 2022a. Exploring the impact of green credit 
+policies on corporate financing costs based on the data of Chinese A-share listed 
+companies from 2008 to 2019. J. Clean. Prod. 375, 134012. https://doi.org/ 
+10.1016/j.jclepro.2022.134012 .
+Zhang, Q., Lin, J., Wei, W., Wei, Y., 2022b. Evolutionary path and influences on marine 
+ecological farming: dual perspective of government intervention and enterprise 
+participation. Discret. Dyn. Nat. Soc. 2022 (1), 3250863. https://doi.org/10.1155/ 
+2022/3250863 .
+Zheng, S., Yu, L., 2022. The government ’ s subsidy strategy of carbon-sink fishery based 
+on evolutionary game. Energy 254, 124282. https://doi.org/10.1016/j. 
+energy.2022.124282 .
+Zhou, B., Zhang, C., 2023. When green finance meets banking competition: evidence 
+from hard-to-abate enterprises of China. Pac. Basin Financ. J. 78, 101954. https:// 
+doi.org/10.1016/j.pacfin.2023.101954 .
+A. Yan et al.                                                                                                                                                                                                                                     Marine Pollution Bulletin 219 (2025) 118313 
+15 

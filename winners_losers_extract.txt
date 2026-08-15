@@ -1,0 +1,923 @@
+===== PAGE 1 =====
+Environ. Res. Lett. 19(2024)114024 https://doi.org/10.1088/1748-9326/ad76c0
+OPEN ACCESS
+RECEIVED
+2May2024
+REVISED
+21August2024
+ACCEPTED FOR PUBLICATION
+3September2024
+PUBLISHED
+1October2024
+Originalcontentfrom
+thisworkmaybeused
+underthetermsofthe
+CreativeCommons
+Attribution4.0licence .
+Anyfurtherdistribution
+ofthisworkmust
+maintainattributionto
+theauthor(s)andthetitle
+ofthework,journal
+citationandDOI.
+LETTER
+Winners and losers in U.S. marine aquaculture under climate
+change
+C R Fong1,∗, J DeCesaro1, G Clawson1, M Frazier1, B S Halpern1,2 and H E Froehlich3,4
+1 NationalCenterforEcologicalAnalysisandSynthesis,UniversityofCaliforniaSantaBarbara,SantaBarbara,CA,UnitedStatesof
+America
+2 BrenSchoolofEnvironmentalScience,UniversityofCaliforniaSantaBarbara,SantaBarbara,CA,UnitedStatesofAmerica
+3 Ecology,Evolution,andMarineBiology,UniversityofCaliforniaSantaBarbara,SantaBarbara,CA,UnitedStatesofAmerica
+4 EnvironmentalScience,UniversityofCaliforniaSantaBarbara,SantaBarbara,CA,UnitedStatesofAmerica
+∗ Authortowhomanycorrespondenceshouldbeaddressed.
+E-mail:fong@nceas.ucsb.edu
+Keywords:mariculture,blueeconomy,index,performance,modeling
+Supplementarymaterialforthisarticleisavailable online
+Abstract
+Mariculturewillbeimportanttomeetingglobalseafoodfooddemandinthecomingdecades.Yet,
+thethreatofclimatechange—suchasrisingoceantemperatures—onmaricultureperformance
+remainsuncertain.Thisisparticularlytrueatsmallspatialscalesrelevanttomostproducers.
+Additionally,maricultureisoftenlimitedbyregulationsthatimposerestrictionsonproduction,
+creatingpotentialhurdlesforanticipatingandadaptingtoclimatechange.Wefocuson
+maricultureperformanceintheUnitedStates(U.S.),wherestateandfederalpoliciesandexposure
+toclimatechangevarysubstantiallyandlikelyinteract.Wemapacurrentandfuturemariculture
+performanceindexbycombiningthefirsthighresolutiondownscaled(0.083 ◦)climateoutputsfor
+U.S.waters,species-specificphysiologicalrequirements,andpolicyrestrictions.Wefindhigh
+currentperformancethatwillincreaseunderwarmingoceans,withspatialvariationthatwill
+amplifyexistingregionaldifferences.Generally,performancewillincreaseinthenorthand
+decreaseinthesouth.Whilethepermittingprocessisnotintentionallyclimate-forward,permitted
+speciesoutperformedtaxonaverages,yetstatepoliciesoftenlimitproductionofseaweedsand
+finfishes,whichperformwell.Thus,wesitatacriticaljuncturewheretheU.S.couldcapitalizeon
+itsseeminglyfavorableenvironmentalconditionsthroughre-alignmentofregulationstosupport
+portfoliodiversificationtoincludeclimate-resilientspecies.
+1.Introduction
+Sustainablymeetingthedemandforfoodwillbechal-
+lenging, and in many cases will be exacerbated by
+globalclimatechange[ 1–4].Manyfoodsystemshave
+already been impacted, and there are, and will be,
+winnersandlosersacrossfoodtypesandregionsas
+climateimpactsaccelerate,withexamplesspanning
+cropagriculture[ 5],livestock[ 6,7]andfisheries[ 8,
+9].Thus,itiscriticaltoidentifylocationsandpro-
+ductionmodesthatmaybeclimateresilient,orthat
+may even benefit from a warming climate. Marine
+aquaculture, or mariculture, is among the fastest
+growingsectorsoffoodproductionandisanimport-
+antandpotentiallysustainableproductionpathway
+to meet seafood demand in the coming decades
+[10–12].However,theimpactsofclimatechangeon
+maricultureareunclear,particularlyat finerspatial
+resolutions.
+Previousmaricultureclimatechangeassessments
+are largely at the global scale and show declines in
+productionovertime,exacerbatedunderlessoptim-
+istic scenarios [13–16]. Even at this coarse resolu-
+tion,winnersandlosersemergeamongregionsand
+taxa[14,15,17]—forinstance,bivalvesappearmore
+susceptible to climate change than finfish [14, 18].
+However,globalassessmentsfailtocapturethefiner
+resolutionconditionsnecessarytoprovideclearand
+robustresultsforthespecificareaswheremariculture
+actuallyoccurs[ 19],acriticalknowledgegap.Indeed,
+nearly all marine production occurs in nearshore
+environments[20],whichglobalclimatemodelsare
+©2024TheAuthor(s).PublishedbyIOPPublishingLtd
+===== PAGE 2 =====
+Environ. Res. Lett. 19(2024)114024 CRFong et al
+notoriously poor at capturing. Further, while there
+is accelerating interest in seaweed aquaculture for
+food,feed,bioproducts(e.g.[ 21]),andasanature-
+based climate change solution [22], seaweeds have
+broadlybeenignoredinmaricultureclimatechange
+research[23].Thus,thereisanurgentneedtolever-
+agefinerresolutionmodeloutputsthatareappropri-
+ately scaled to operations to better predict areas of
+opportunityandavoidanceinachangingclimate[ 19].
+An additional complexity previously ignored in
+globalmariculturesuitabilityassessmentsistherole
+of policy and governance, creating an additional
+knowledgegap.Weincludetheroleofpolicyandgov-
+ernmentinouranalysestodeterminewherepolicy
+willhinderorimproveperformance.Previousstudies
+havenotexplicitlyconsideredthepoliciessurround-
+ingmariculturewhichcanleadtounrealisticpredic-
+tions.Localgovernmentscanregulatewhichspecies
+canbefarmedwithintheirjurisdiction.Historically,
+permittingwasnotastrongconstrainttomariculture,
+sometimes with devastating environmental impacts
+[24]. Now, environmental impacts are more often
+considered,whichmaylimitoperations.Currently,in
+theUnitedStates(U.S.),established,non-nativespe-
+ciesareallowed(e.g.Pacificoyster),butnewspecies
+willlikelyhavetobenative.Thus,assessingwhatis
+currentlygrownandwhatstateshaveindicatedsup-
+portincorporatesthisgovernancedimension.
+We focus on the U.S. because there is renewed
+interestinmariculturedevelopmentandthecountry
+hasahugeanddiverseexclusiveeconomiczone,span-
+ningnearly60 ◦oflatitudeandthreeoceans,exposing
+the country to highly variable climate change out-
+comes.Diversestateandfederalregulationsdrivespa-
+tialdifferencesinwhatcanbefarmedineveryloca-
+tion.Currently,thereisinterestinexpandingsome
+types of mariculture, with active strategic planning
+but variable policy support [25–29]. For example,
+Alaska has explicitly opposed finfish mariculture
+[30],yetbothAlaskaandMainearequicklygrowing
+andinvestingintheirseaweedandbivalvesectors[ 30,
+31]. Additionally, the federal government is devel-
+opingAquacultureOpportunityAreas(AOAs),areas
+identifiedasmoresuitableformariculture,through
+community engagement focused on existing use,
+commercial fishing needs, and environmental pro-
+tection. Currently, there are three identified AOAs
+(outof10,seefigure 1)[32].However,selectingthese
+areasdidnotincludeclimatechangeconsiderations
+[33].Further,inlinewithstatepolicyandsocialsen-
+timent, it is likely fish could be grown in the Gulf
+ofMexicowhiletheAOAsinCaliforniaandAlaska
+will likely be constrained to seaweeds and bivalves
+[32,34,35].Thus,thereissignificantspatialhetero-
+geneityinclimateandlegislation,creatinganoppor-
+tunity to explore these interactions on mariculture
+performance.
+Ourobjectivesinthisstudywereto(1)mapthe
+currentandfutureperformanceofmariculturespe-
+cieseitherfarmedintheU.S.orunderconsideration
+forproductionand(2)comparecurrentandfuture
+performance when the species portfolio is unres-
+tricted versus restricted to those species permitted
+withinaspecificstate.Theseevaluationsallowusto
+identifywheremaricultureperformancewillincrease
+anddecreaseastheoceanwarms,andhighlightifand
+wherepolicycouldbealeverformitigatingnegative
+outcomesandfacilitatingbetterperformance.
+2.Materialsandmethods
+2.1.Overview
+Wemapthecurrentandfuturemaricultureperform-
+anceintheU.S.bycombiningstatisticallydownscaled
+climateoutputsandkeyphysiologicalrequirements
+of species either already farmed or proposed to be
+farmedbycoastalmarinestates.Toestimateperform-
+anceofeachspecies,wefirstcalculatedthermalper-
+formancecurves( sensu[17]).Wethencombinedthis
+informationwithdownscaledseasurfacetemperat-
+ure(SST)dataforthreeclimatescenarios.Formol-
+luscs,wesetadditionalrequirementsforfoodavail-
+abilityandaragonitesaturation.Wecalculatedaper-
+formanceindex(PI)byaveragingtheperformanceof
+eachspecieswithinourthreetaxa(finfish,molluscs,
+seaweeds),aswellasacrossalltaxa,toidentifyareas
+thataremoreandlesssuitableformariculture.
+2.2.Speciesselection
+Thespeciesincludedinthisstudycomprisespecies
+already farmed in the U.S. or those under expli-
+citconsiderationforproductionasdetailedinstate
+policy plans. Because seaweed aquaculture is a rel-
+ativelynewindustryintheU.S.,weaugmentedthe
+seaweed list with expert opinion, communication
+withextensionspecialists,andindustryreports(e.g.
+https://seaweedhub.extension.uconn.edu/).Wecom-
+binedfoursourcestocreateourlistofspecies—(1)
+species included in FAO production data [36], (2)
+specieslistedinrecentpublicationonU.S.statemari-
+culture production [37], (3) species listed in state
+aquacultureplans[ 38],and(4)expertopinion(six
+seaweedspecies).Speciesmustbegrown-outinthe
+oceaninawaycompatiblewithstateregulations.This
+resultedin11speciesoffinfishes,10speciesofmol-
+luscs,and10speciesofseaweeds.
+2.3.Climatedata
+Briefly,theclimatescenariosweusedaretheShared
+Socioeconomic Pathways- Relative Concentration
+Pathways(SSP-RCP)SSP1–2.6,SSP2–4.5,andSSP5–
+8.5, described in detail in the Intergovernmental
+Panel on Climate Change Sixth Assessment Report
+[18] as scenarios of ‘Sustainability’ (SSP1–2.6),
+2
+===== PAGE 3 =====
+Environ. Res. Lett. 19(2024)114024 CRFong et al
+‘Middle of the Road’ (SSP2–4.5), and ‘Fossil Fuel
+Development’(SSP5–8.5).Weusedoutputsforthree
+timeintervals(2011–2030,2051–2070,2071–2090).
+All climate data—source, temporal resolution, spa-
+tial resolution, and scenarios—are summarized in
+thesupplement(tableS2).Actea,aprivate,for-profit
+company, provided depth, chlorophyll a, and tem-
+perature data at 0.083◦ × 0.083◦ resolution while
+NOAAprovidedaragonitedataat1 ◦ ×1◦resolution.
+Actea climate models combine CMIP6 projections
+with unbiased local history data with a propriet-
+ary machine learning algorithm to create outputs.
+ScenariosinthedatasetincludedSSP1–2.6,SSP2–4.5,
+andSSP5–8.5whiletimedomainsincludedcurrent,
+mid-century (2051–2070), and late-century (2071–
+2090).Weprovideseveralclimatescenarioscreated
+with ensemble approaches to allow for uncertainty
+inthesocialandemissionsconditionsofthefuture.
+Ensemble approaches are typically used for climate
+change modeling because they incorporate uncer-
+taintyandvariabilityinpossibleoutcomesbasedon
+differing assumptions (see supplement for details
+on climate modeling). Following the recommend-
+ations of Schoemanet al [39], we include multiple
+scenariosthat bracketthe general rangeofpossible
+scenarios.Wefocusontheaverageoftheprojections
+to model likely futures for three climate scenarios
+and two future time points. Additionally, we focus
+onmeanmonthlytemperature,averagedacrosseach
+of our 20 year time periods to focus on the most
+likelyscenario;inthesupplement,weprovidealtern-
+atescenariosforminimumandmaximummonthly
+temperatures(figuresS4–S8).NOAAprovidedstate
+waterpolygons.
+Thermal performance. We sourced temperature
+performanceparametersfromtheliterature(tableS1)
+and modeled thermal performance using the same
+equations as in previous performance models (see
+[17]fordetails).Whenwewereunabletofindspe-
+cies specific data, we used taxonomic relationships
+to find values from the nearest appropriate species
+(sensu [40]), which was necessary for six of the 31
+species.
+Thermal performance was modeled with a
+temperature-dependent, piecewise linear function
+(equation(1)):
+P (T) =
+if T ⩽ Topt, a1T − b1
+if T > Topt, a2T − b1 (1)
+where T is SST (◦C), Topt is the optimal growth
+temperature( ◦C),a1anda2areslopes,andb1and
+b2areintercepts.Interceptsweredeterminedbythe
+maximum and minimum temperatures (◦C) below
+theminimumtemperature( Tmin,b1/a1)andabove
+themaximumtemperature( Tmax, −b2/a2),perform-
+ance was set to zero (sensu [17]). At the optimal
+temperature, performance was set to 1 to facilitate
+cross-species comparisons and allow calculation of
+amulti-speciesPI(figureS5).Wedonotusemore
+typical thermal performance curves because those
+require more parameters to fit, information that is
+not available in the literature. However, our lin-
+earapproachapproximatesthegeneralfeaturesofa
+thermal performance curve, with minimum, max-
+imum,andoptimumtemperatures.
+Aragonite saturation.Ocean acidification dis-
+ruptscalcification.Weusedanaragonitesaturation
+threshold( Ω >1.0)asabinaryrequirementformol-
+luscs( sensu[14,41]).
+Chlathresholds.Manymolluscs(andallhere)are
+filter-feeders and require sufficient phytoplankton.
+Chlorophylla(chla)isoftenusedasaproxyforphyto-
+plankton abundance [42, 43]. Generally, growth is
+non-existent with insufficient food, then increases
+withfoodavailabilitytoasaturationthresholdwhen
+food is not limiting. To incorporate this functional
+relationshipbetweenfoodavailabilityandperform-
+ance, we set a minimum and maximum threshold
+of chla and assumed a linear relationship between
+those,rescaledbetween0and1(seefigureS5).Weset
+ourminimumthresholdat1mgm −3 (sensu[44]).
+Wesetourmaximumsaturationvalueat4mgm −3.
+Whilethisisdoubletherequirementtypicallyusedin
+theliterature[ 14,15,41],inourdownscaledmodels,
+thisconcentrationresultedinthebestspatialmatch
+withglobalestimatesof2mgm −3[14,15],resulting
+inbetteralignmentwithpreviousresearch,whichis
+necessaryforcomparison(figureS4).
+For molluscs, we calculated a chla-dependent
+performance function,P(chla), where chlamax = 4,
+chlamin = 1, and values between were rescaled
+between0and1(equation( 2))
+P (Chla) =
+if Chla⩽Chlamin,0
+if Chla⩾Chlamax,1
+if Chlamax >Chla >Chlamin, a1 ∗Chla − b1. (2)
+2.4.PI
+WecalculatedaPIbyaveragingtheperformanceof
+eachspeciesforeachofourthreetaxa(finfish,mol-
+luscs, seaweeds), as well as across all taxa. Indices
+standardize inputs to enable comparison and cap-
+turegeneralpatternsofmagnitudeanddirection,but
+shouldnotbeinterpretedasabsolutechange.Foreach
+scenarioandtimeperiod,weusedmeanSSTtocal-
+culateamonthlyperformancevalueforeachraster
+cellusingequation( 1).Formolluscswealsocalculate
+chlaaperformance(equation( 2))andwemultiplied
+this by the thermal performance (equation (1)) to
+includebothparametersintoperformance.Wethen
+averagedmonthlyperformancestocalculateannual
+averageovereach20yeartimeperiod.Finally,wethen
+3
+===== PAGE 4 =====
+Environ. Res. Lett. 19(2024)114024 CRFong et al
+averagedacrossspeciestocalculatePIforeachtime
+periodandwarmingscenarioforallspeciesandeach
+taxonomicgroup;inbothcases,specieswereequally
+weightedsothattheindexreflectsspeciesperform-
+ance (as opposed to market size weighting, which
+couldreflecteconomicperformance).Formolluscs,
+weusedaragonitesaturationthresholdstoresetany
+rasterthatdidnotmeettheappropriatethresholdto
+zero.
+3.Additionalconstraints
+Toaccountforinfrastructureandpolicyconstraints
+on mariculture operations, we limited water to
+<200m(asin[ 14,15,41]).Becauseeachstatecon-
+trolswhatspeciescanbefarmedintheirownwaters,
+weconstrainedeachstatetoonlystatewaters.Then,
+foreachstate,PIwascalculatedonlywithspeciesthat
+arepermittedformariculturewithinthatstate.We
+identifiedthesespeciesusingexistingpublisheddata
+on state-level production data [37] as well as state
+policydocuments[38](tableS3).WecalculatedPIfor
+eachstateforstate-specificpermitted,orlikelytobe
+permitted,speciesaswellasthePIforthepoolofspe-
+ciespermittedorlikelytobepermittednationally.We
+didsofor‘allspecies’andforeachtaxon.
+4.Results
+4.1.Nationaltrendsincurrentandfuture
+maricultureperformance
+Within the U.S. EEZ, there is substantial variation
+in the current production potential of mariculture
+amongdifferentfarmablespecies(figure 1),aswell
+asinthelikelyresponsetoclimatechange(figure 2).
+Currently, the Pacific Coast of the contiguous U.S.
+isthemostsuitableregionformariculture,withthe
+highestmeanPI(figure 1).However,farmablearea
+islimitedinsomeareas,suchastheChannelIslands
+around California, due to our imposed depth limit
+(200 m). Hawaii is less suitable due to its warmer
+waters, and has limited farmable space due to the
+extremedepthgradientsontheseoceanicvolcanoes
+(figures S11 and S12). The Gulf Coast and Gulf of
+Alaskahavetheworstconditions.TheAtlanticCoast
+ismostvariable,wherethemid-Atlanticismoresuit-
+ablethanareastothenorthandsouth.
+Amongtaxa,seaweedsperformbestinthePacific,
+finfishintheGulfandsouthAtlantic,andmolluscs
+performreasonablywellinthecontiguousU.S.,apat-
+ternthatholdswithintheAOAs(figure 1).Currently,
+seaweeds can be grown extensively in the contigu-
+ousU.S.,withahigherPIinthecoldernorth.The
+Channel Islands are among the least suitable areas
+in the Pacific, notable because they are an AOA
+(figure2). Seaweeds have marginal performance in
+thesouthAtlanticandGulfAOAs,rarelyexceeding
+thetophalfoftheirperformance.Generally,finfish
+performbestwhereseaweedsperformpoorly.Finfish
+PIishighestintheGulfAOA,andthesouthAtlantic,
+andlowestinAlaskaAOA.Molluscshavethemost
+spatially variable performance, a result of interac-
+tions among aragonite saturation, food availability,
+andtemperature.
+By mid-century (2051–2070) under SSP2–4.5,
+mariculture performance improves in 79% of the
+U.S.’s EEZ <200 feet deep. We focus on mean
+temperatures and SSP2–4.5 mid-century outcomes
+because patterns of change in PI were largely con-
+sistent across time domains, scenarios and temper-
+ature ranges, though magnitudes varied (see sup-
+plement).Bymid-centurySSP2–4.5,climatechange
+willincreasePIinnorthernstatesanddecreasePIin
+southernstates,withlargermagnitudesofchangein
+the south Atlantic and Gulf (figure2). While these
+trendsinchangesinperformancearegenerallysim-
+ilar in 2071–2090, this is not true for Washington,
+where PI degrades due to increasing acidification
+(figureS2).
+Inthefuture,seaweedPIincreasesin78%ofthe
+U.S. EEZ<200 feet deep. We find a strong north
+tosouthtrendofdecreasingPI,aresultofincreas-
+ingtemperature.Notableareasofimprovementare
+southern Alaska, an AOA, and Maine. For finfish,
+by mid-century SSP2–4.5, we find PI increases in
+84% of water<200 feet deep. Most decreases are
+in the south while there are moderate increases in
+thenorth.Molluscsshowthelowestresiliencetocli-
+matechange—performanceincreasesin61%ofthe
+U.S. EEZ < 200 feet. We find increases in PI in
+the Pacific, decreases in the Gulf, and a north to
+southgradientfromincreasedtodecreasedPIinthe
+Atlantic. Generally, PI increased in northern latit-
+udes,specificallyinAlaskathoughthereisanabrupt
+decreaseinperformanceinthefarthestnorthwaters
+(figure2).
+4.2.State-leveltrendsinfuturemariculture
+performance
+Climate change will amplify existing regional dif-
+ferences in PI, such that states that currently per-
+formwellwillfarebetterinthefuture,whilestates
+thatcurrentlyhavelowerperformancewillgetworse
+(figures 2 and 3). While climate change scenarios
+typically increase PI across all taxa and in most
+states (13 of 23 states), the less optimistic cli-
+mate scenarios (e.g. SSP2–4.5 and SSP5–8.5) amp-
+lify both positive and negative trends (figure3).
+Increases in PI are stronger in northern states, a
+result of increased performance for all three taxa.
+OnenotableexceptiontothispatternisWashington,
+which will experience large decreases in PI under
+SSP5–8.5 bymid-century,drivenbyoceanacidific-
+ation, which makes mollusc farming less suitable
+(figures 3 and S1). PI in the Atlantic states also
+showsastronglatitudinaltrendofincreasingPIin
+4
+===== PAGE 5 =====
+Environ. Res. Lett. 19(2024)114024 CRFong et al
+Figure1. CurrentPIforallspeciesandeachtaxon.Areasin(yellow)havelowPIvalueswhileareasin(darkpurple)havehighPI
+values.RedlinesindicatethegenerallocationsfortheAOAs.InAlaska,AOAsitingisongoing,sotheextentisreflectsthe
+distributionofexistingoperations[ 20].
+Figure2. ChangePIforallspeciesandeachtaxonbymid-centurySSP2–4.5.AreasinredsignifydecreasingPIwhileareasinblue
+signifyincreasingPI.RedlinesindicatethegenerallocationsfortheAOA.InAlaska,AOAsitingisongoing,sotheextentis
+reflectsthedistributionofexistingoperations[ 20].Changeswerecappedat ±0.1topreventoutliersfromdrivingcolorscale.
+the north and decreasing south, with an inflection
+pointinVirginia.TheGulfstatesgenerallybecome
+lesssuitableformaricultureforallthreetaxa,atrend
+that is intensified under the more extreme climate
+scenarios.
+Instatewaters,seaweedsarethemostresilientto
+climatechange(i.e.hadthesmallestchange-positive
+ornegative),followedbyfinfish;molluscsarethe
+least resilient (figure3). Both seaweeds and finfish
+showgraduallatitudinalchanges,aresultoftemper-
+aturegradients.Incontrast,changeinmolluscper-
+formanceismoreabruptandwithlargermagnitude
+becauseperformancedependsontemperature,arag-
+onite,andfood.
+5
+===== PAGE 6 =====
+Environ. Res. Lett. 19(2024)114024 CRFong et al
+Figure3. ChangeinPIfortheallspeciesandeachtaxonforthethreeclimatescenariosformid-century(2051–2070).Green
+indicatesSSP1–2.6,yellowisSSP2–4.5,andredisSSP5–8.5.Dashedlinesindicatesnochange,sopointstotheleftofthedashed
+linehavedecreasedPIwhilepointstotherightofthedashedlinehaveincreasedPI.
+4.3.Currentandfuturestate-levelperformanceof
+permittedspecies
+State-permittedspeciesgenerallyhavehigherPIcom-
+paredtothepoolofallspeciescurrentlyfarmedor
+under consideration (hereafter called all permitted
+species)(figure 4).Bymid-centurySSP2,PImostly
+increasesforbothstate-permittedandallpermitted
+species( n =13states),thoughsomestatesshowslight
+decreases( n =9)orstaythesame( n =1).Undercli-
+matechange,thedifferenceandmagnitudeofchange
+inPIbetweenthestate-permittedandtheallpermit-
+tedspeciesvariesbystate.Notably,thegapgenerally
+increaseswithdecreasinglatitude.Inthefuture,there
+isageneralnorthtosouthtrendforbothstateand
+allpermittedspeciesPI,suchthatPIimprovesinthe
+northandworsensinthesouth.
+5.Discussion
+MaricultureintheU.S.hassignificantpotentialfor
+successnowandinthefuture,likelybenefitingfrom
+awarmingocean.Ourresults,thefirstusingfineres-
+olutionstatisticallydownscaledmodeloutputsforthe
+U.S.,broadlymatchcoarser,global-scaleassessments
+ofclimatechangeimpactsonmariculture[ 14,15,44].
+However,weprovidedetailedinsightatthefinerspa-
+tial, taxonomic, and policy resolution necessary to
+anticipate and plan for climate change. Overall, we
+findincreasesintemperatureprimarilydrivechanges
+in performance—as northern latitudes get warmer,
+performanceimproves,whiletemperatureincreases
+in southern latitudes exceed the thermal ranges of
+many species. Therefore, policy could be updated
+within each state to implement a formal review of
+permitted aquaculture species regularly to determ-
+ine if other species should be included or removed
+basedonperformanceincurrentwatertemperatures.
+Additionally,manystatesdonotcurrentlypermitthe
+mariculture of any finfish or seaweed species des-
+pitetheircurrentandfutureperformancepotential.
+Inclusionofthesetaxontothemaricultureportfolio
+coulddiversifyseafoodproductionandincreasesta-
+bilityinthesector.
+WhileoverallmaricultureperformanceintheU.S.
+increases in the future, climate change will amp-
+lify existing regional differences, with larger effects
+in the less optimistic climate scenarios and over
+longer time domains. For example, climate ‘win-
+ners’ include wealthy states (e.g. California, New
+York)whileclimate‘losers’includepoorerstates(e.g.
+Mississippi,Louisiana).Ourfindingsalignwithother
+climatechangeimpacts tofood systems,painting a
+bleak picture for the south. For example, climate
+changeimpactstofreshwateraquaculturewilllikely
+behighestintheGulf[ 45].Additionally,Gulfstates
+are projected to have the greatest decrease in pro-
+duction for other agricultural products like corn,
+wheat, soy, and cotton as the environment warms,
+6
+===== PAGE 7 =====
+Environ. Res. Lett. 19(2024)114024 CRFong et al
+Figure4. PIforallspeciesaswellaseachtaxonnow(closedcircles)andbymid-centuryunderSSP2–4.5(opencircles)forthe
+wholespeciespool(yellow)andthepermittedspeciespool(blue).Greypointsindicatenospeciesinthatgrouparepermitted.
+withproductionlossesanticipatedtoexceed90%in
+somecases[ 46,47].Collectively,thesefindingsindic-
+ateclimatechangedisproportionatelychallengesfood
+productioncentersinthesouth,potentiallydecreas-
+ingregionaleconomicstabilityandfoodsecurity.
+Withinstates,permittedspeciesoutperformthe
+averageofallspeciesgrownorunderconsideration
+bothnowandinthefuture.Wehypothesizethisres-
+ultsfromfarmer’sselectionandapplicationforper-
+mits for locally high performing species. This res-
+ult suggests some global evaluations might overes-
+timatetheimpactofclimatechangeonmariculture
+(e.g.[14,15]).Moreover,itsuggeststheindustrymay
+be well situated and can proactively adapt, includ-
+ingselectionofnewspecies[ 48].Indeed,whilethe
+currently farmed species performed well, limited
+diversity can reduce sector resilience [49]. Policy is
+likelyonlyonefactorinfluencingtheregionalvariab-
+ilityinperformance—economic,technological,and
+environmental factors are also important [50–53].
+However, our finding of the strong role of policy
+onperformanceunderscorestheimportanceoflocal,
+contextdependenciestocaptureresilience.
+Current permitting restricts seaweed and fin-
+fish, taxa that perform well under climate change
+in the U.S. In some places, seaweeds were the best
+performers, particularly in the northern states. Yet
+few states farm seaweeds, creating an opportunity
+for diversification and building climate resilience.
+Insomestates,environmentalsuitabilityalignswith
+policy, creating hotspots of climate-forward oppor-
+tunity,suchasthesupportivestatepoliciesinAlaska
+and Maine [38]. Additionally, seaweed mariculture
+may be more socially acceptable [35], likely due to
+theperceptionoflowerenvironmentalimpactsand
+co-benefitsbenefits,includingnutrientremediation,
+carbon sequestration, and restoration [10, 54–57].
+However,limitationsforseaweedmariculturearenot
+isolated to the governance. Currently, it is unclear
+howthenewandunproven[ 58]seaweedmariculture
+industrywillbeprofitableintheU.S[ 59].particu-
+larlyintheglobalmarketwherelaborcanbecheaper
+[60].Additionally,therearenofederalregulationsfor
+saleforconsumption[ 61]andtherearebottlenecks
+indryingand/orstabilizingbiomass[ 62]thatchal-
+lengedistribution. Finally,while there is interestin
+seaweedmaricultureinthecarbonmarkets[ 10,57],
+implementationremainsunclear.Collectively,while
+weshowopportunityforseaweedmaricultureinthe
+U.S., there are additional dimensions that warrant
+investigation.
+Molluscs were the least climate change resilient
+taxa,anunfortunateoutcomebecausemolluscsare
+the most produced and profitable taxa in the U.S.
+7
+===== PAGE 8 =====
+Environ. Res. Lett. 19(2024)114024 CRFong et al
+[37]. We find substantial decreases in performance
+inthesouthAtlanticandGulfdrivenbyinteractions
+amongtemperature,phytoplanktonavailability,and
+reducedaragonite.Althoughtemperatureconstraints
+canbeoffsetthroughselectionforthermallytolerant
+species and strains, the requirementsof food avail-
+abilityandoceanchemistrywillbeamajorhurdle.
+Thus, we highlight the same vulnerability of mol-
+luscstoclimatechangeduetophysiologicalrequire-
+ments for calcifying and phytoplankton as global
+assessments[14].However,wefindincreasedmollusc
+in performance in the Pacific and north Atlantic—
+albeitanexceptionislate-centurySSP5aragonitesat-
+urationinWashington—andsomeofthesestatesare
+activelydevelopingsupportivepolicies(e.g.[ 38]).Yet,
+theremaybeamissedopportunityformolluscmari-
+culture in the Pacific, evident in the gap between
+theperformanceofpermittedversusallspecies,and
+expandingthelistoffarmedspeciescouldbeaclimate
+adaptation.
+TheCaliforniaandGulfAOAsareinareasthat
+will likely see decreases in performance while the
+Alaska AOA will likely see increased performance.
+Notably,the Gulf AOA is sited in an areathat cur-
+rently has low performance. While the AOAs were
+designedtoincreaseopportunitiesbystreamlineper-
+mittingandregulatorybarriers,temperatureandcli-
+matechangewerenotconsidered[ 33,63].Ideally,cli-
+matechangeshouldlikelybeincorporatedintositing
+oftheremainingAOAs,andourresultscouldprovide
+guidance.
+Whileweprovideinsightintothefutureofmari-
+culture, more information is needed to guide cli-
+matesmartpolicy.Althoughweusedthefinestres-
+olution downscaled outputs available, these do not
+capture the full extent of the inlets and estuaries
+wheremostmaricultureoccurscurrentlyintheU.S.
+[20]. Further, species-specific growth models and
+inclusionofyounger,potentiallymorevulnerablelife
+stages[64],arenecessarytoquantifyimpactstopro-
+duction.Additionally,duetothelimitationsofoutput
+dataprovidedbyActea,weareunabletotrulycap-
+turetemperaturevariability,includingmarineheat-
+waves, on performance. Indeed, there is evidence
+that temperature extremes are an immediate threat
+to production [23, 48, 65]. However, we were able
+to model the upper and lower edges of our tem-
+perature ranges, and found in general, lower tem-
+peratures dampened, but did not reverse our res-
+ults,whilehighertemperaturesamplifiedourresults
+(seesupplementfordetails).Finally,wewereunable
+to account for nutrient availability, a key require-
+mentforseaweeds,yetthatinformationisunavail-
+ableatthenecessaryspatialandtemporalresolutions,
+but undoubtedly is a potentially critical factor for
+somespecies[ 66–68].Ideally,futureclimatemodel-
+ingwillbeappliedtostate-specificwaters,including
+inletsandestuarieswherecurrentnearshoreaquacul-
+turelargelyresides[ 20].However,werecognizemost
+regions lack downscaled climate projections with
+such complex bathymetry and dynamic hydrology.
+Thenextbestpossibilityisusingretrospectiveana-
+lyses,similartoFree et al [8],whichusedhistorical
+datatodiscerntheimpactofwarmingonwildcapture
+productionsince1930.Researchshouldalsofocuson
+state-permittedspeciesorthosebeingconsideredfor
+farmingtodiscernstate-levelvulnerabilities.Again,
+intheabsenceofdownscalemodels,empiricallaband
+field studies on critical life stages relevant to farm-
+ingtechniquesandtimingcanhelpinformpotential
+futureperformancetosomeextent,andwillbecer-
+tainlybeneficialforanyfuturemodeling[ 48].
+Insummary,whilemaricultureintheU.S.hassig-
+nificantpotentialforsuccessnowandinthefuture,
+benefitingfromawarmingocean,climatechangewill
+amplifyexistingregionaldifferencessuchthatsouth-
+ernlatitudeswillexperiencedecreasesinperformance
+whilenorthernlatitudeswillexperienceincreasesin
+performance. Generally, state-level policy filters for
+thehighestperformingspeciesnowandinthefuture
+andisinadvertentlyclimateforward.However,most
+states do not currently grow finfish or seaweeds, a
+missedopportunityasthesearesomeofthehighest
+performingspecies.Tobetteralignpolicywithper-
+formance,werecommendstatesreconsiderthiscon-
+straint,enablingproductionofthebestperformers.
+Like all studies, ours is constrained in scope and
+depth, and future research that would complement
+and expand our study efforts more species-specific
+physiological and economic assessments models, as
+wellasareviewofregulatorychokepointsandsocial
+license.However,ourworkpresentsthecurrentand
+future potential performance of mariculture in the
+U.S.,anddemonstrateswherere-alignmentofregula-
+tiontoenablediversificationofthemaricultureport-
+foliocouldincreaseclimateresilience.
+Dataavailabilitystatement
+The data cannot be made publicly available upon
+publicationbecausetheyareownedbyathirdparty
+andthetermsofusepreventpublicdistribution.The
+datathatsupportthefindingsofthisstudyareavail-
+ableuponreasonablerequestfromtheauthors.
+Acknowledgments
+ThankyoutotheNCEASresidencesforanengaging,
+collaborativeenvironment.ThankyoutotheZegar
+FamilyFoundationforfunding.
+Dataandcode
+All analyses were performed in R statistical
+software, version 4.0.4. All processed data lay-
+ers and code required are publicly available
+at https://github.com/catfong/ERL_US_marine_
+aquaculture_potential and have been archived on
+8
+===== PAGE 9 =====
+Environ. Res. Lett. 19(2024)114024 CRFong et al
+Zenodo at https://zenodo.org/records/13937367.
+High-resolutionoceanclimatedatacanbeobtained
+from Actea.earth (info@actea.earth). For additional
+informationonthemethodsthatActeausedtopro-
+ducethedatasetandvalidatestheclimateprojections,
+pleasesee[ 69].
+ORCIDiDs
+CRFong https://orcid.org/0000-0002-7241-3862
+JDeCesaro https://orcid.org/0000-0003-2043-
+7667
+References
+[1] FanzoJ,DavisC,McLarenRandChoufaniJ2018Theeffect
+ofclimatechangeacrossfoodsystems:implicationsfor
+nutritionoutcomes Glob. Food Secur.1812–19
+[2] FrielS,SchramAandTownsendB2020Thenexusbetween
+internationaltrade,foodsystems,malnutritionandclimate
+change Nat. Food151–58
+[3] ThiaultL,MoraC,CinnerJE,CheungWWL,
+GrahamNAJ,Januchowski-HartleyFA,MouillotD,
+SumailaURandClaudetJ2019Escapingtheperfectstorm
+ofsimultaneousclimatechangeimpactsonagricultureand
+marinefisheries Sci. Adv.5eaaw9976
+[4] VermeulenSJ,CampbellBMandIngramJSI2012Climate
+changeandfoodsystems Annu. Rev. Environ. Resour.
+37195–222
+[5] RayDK,WestPC,ClarkM,GerberJS,PrishchepovAV
+andChatterjeeS2019Climatechangehaslikelyalready
+affectedglobalfoodproduction PLoS One14e0217148
+[6] HaileWA2020Impactofclimatechangeonanimal
+productionandexpansionofanimaldisease:areviewon
+ethiopiaperspective Am. J. Pure Appl. Biosci.364–76
+[7] LaffertyKD2009Theecologyofclimatechangeand
+infectiousdiseases Ecology90888–900
+[8] FreeCM,ThorsonJT,PinskyML,OkenKL,
+WiedenmannJandJensenOP2019Impactsofhistorical
+warmingonmarinefisheriesproduction Science363979–83
+[9] GainesSD et al2018Improvedfisheriesmanagementcould
+offsetmanynegativeeffectsofclimatechange Sci. Adv.
+4eaao1378
+[10] DuarteCM,BruhnAandKrause-JensenD2022Aseaweed
+aquacultureimperativetomeetglobalsustainabilitytargets
+Nat. Sustain.5185–93
+[11] GephartJA et al2021Environmentalperformanceofblue
+foods Nature597360–5
+[12] HalpernBS et al2022Theenvironmentalfootprintofglobal
+foodproduction Nat. Sustain.51027–39
+[13] BarangeM et al2018 Impacts of climate change on fisheries
+and aquaculture: synthesis of current knowledge, adaptation
+and mitigation options627(FoodandAgriculture
+OrganizationoftheUnitedNations)
+[14] FroehlichHE,GentryRRandHalpernBS2018Global
+changeinmarineaquacultureproductionpotentialunder
+climatechange Nat. Ecol. Evol.21745–50
+[15] FreeCM et al2022Expandingoceanfoodproductionunder
+climatechange Nature605490–6
+[16] BurgessMG,BeckerSL,LangendorfRE,FredstonA
+andBrooksCM2023Climatechangescenariosinfisheries
+andaquaticconservationresearch ICES J. Mar. Sci.
+801163–78
+[17] KlingerDH,LevinSAandWatsonJR2017Thegrowthof
+finfishinglobalopen-oceanaquacultureunderclimate
+change Proc. Biol. Sci.28420170834
+[18] PörtnerHO et al(ed)2022 IPCC, 2022: Summary for
+Policymakers(CambridgeUniversityPres)pp3–33
+[19] FalconerL,YtteborgE,GorisN,LauvsetSK,SandøABand
+HjølloSS2023Contextmatterswhenusingclimatemodel
+projectionsforaquaculture Front. Mar. Sci.101198451
+[20] ClawsonG et al2022Mappingthespatialdistributionof
+globalmaricultureproduction Aquaculture553738066
+[21] FeehanC(UNEP)2023 Seaweed Farming: Assessment on the
+Potential of Sustainable Upscaling for Climate, Communities
+and the Planet
+[22] MillsKE2023 et alOceanecosystemsandmarineresources
+Fifth National Climate AssessmentedARCrimmins et al
+(U.S.GlobalChangeResearchProgram)( https://doi.org/
+10.7930/NCA5.2023.CH10)
+[23] FroehlichHE,KoehnJZ,HolsmanKKandHalpernBS
+2022Emergingtrendsinscienceandnewsofclimatechange
+threatstoandadaptationofaquaculture Aquaculture
+549737812
+[24] SmithJE,HunterCL,ConklinEJ,MostR,SauvageT,
+SquairCandSmithCM2004Ecologyoftheinvasivered
+algagracilariasalicornia(rhodophyta)onO’ahu,Hawai’i
+Pac. Sci.58325–43
+[25] EO,PromotingAmericanSeafoodCompetitivenessand
+EconomicGrowth2020(availableat: www.federalregister.
+gov/documents/2020/05/12/2020-10315/promoting-
+american-seafood-competitiveness-and-economic-
+growth)
+[26] LesterSE,GentryRR,LemoineHR,FroehlichHE,
+GardnerLD,RennickM,RuffEOandThompsonKD2022
+Diversestate-levelmarineaquaculturepolicyintheUnited
+States:opportunitiesandbarriersforindustrydevelopment
+Rev. Aquacult.14890–906
+[27] NSTC2021 A national strategic plan for aquaculture research
+2021–2025. A report by the science planning task force
+subcommittee on aquaculture committee on environment of the
+national science & technology council
+[28] NSTC2021 A strategic plan to enhance regulatory efficiency in
+aquaculture. A report by the regulatory efficiency task force
+subcommittee on aquaculture committee on environment of the
+national science & technology council
+[29] NSTC2021 A strategic plan for aquaculture economic
+development. A report by the subcommittee on aquaculture of
+the national science & technology council
+[30] AFDF2018Alaskamariculturedevelopmentplan(available
+at:https://www.adfg.alaska.gov/Static/fishing/pdfs/
+mariculture/ak_mariculture_devplan_06-29-18.pdf)
+[31] SaduskyH et al(SeaGrant)2021 Maine Aquaculture
+Roadmap 2022–2032
+[32] UnitedStates2023Nationalarchivesandrecords
+administration:officeofthefederalregister Fed. Regist.
+8871987–2345
+[33] MorrisJAJr2021AnaquacultureopportunityareaAtlasfor
+theSouthernCaliforniabight( https://doi.org/10.25923/
+TMX9-EX26)
+[34] OPC2021 Guiding Principles for Sustainable Marine
+Aquaculture in California
+[35] FongCR,GonzalesCM,RennickM,LahrHJ,GardnerLD,
+HalpernBSandFroehlichHE2024Conflictandalignment
+onaquacultureamongCaliforniancommunities
+Aquaculture580740230
+[36] FAO2024FAO2024.Globalaquacultureproduction
+Fisheries and Aquaculture(availableat: https://
+openknowledge.fao.org/items/ef79a6ba-d8df-41b9-9e87-
+2b6edd811511)
+[37] FroehlichHE,GentryRR,LesterSE,RennickM,
+LemoineHR,Tapia-LewinSandGardnerL2022Piecing
+togetherthedataoftheU.S.marineaquaculturepuzzle J.
+Environ. Manage.308114623
+[38] FongCR,GonzalesCM,RennickM,LahrHJ,GardnerLD,
+HalpernBSandFroehlichHE2024Thestructureand
+functionofastateaquacultureplan Aquaculture593741164
+[39] SchoemanDS,GuptaAS,HarrisonCS,EverettJD,
+Brito-MoralesI,HannahL,BoppL,RoehrdanzPRand
+RichardsonAJ2023Demystifyingglobalclimatemodelsfor
+useinthelifesciences Trends Ecol. Evol.38843–58
+9
+===== PAGE 10 =====
+Environ. Res. Lett. 19(2024)114024 CRFong et al
+[40] FongCR,RyznarER,SmithLLandFongP2023Towardsa
+trait-basedframeworkformarinemacroalgae:using
+categoricaldatatoexplorethenatureofemergentfunctional
+groups J. Ecol.1111848–65
+[41] GentryRR,FroehlichHE,GrimmD,KareivaP,ParkeM,
+RustM,GainesSDandHalpernBS2017Mappingthe
+globalpotentialformarineaquaculture Nat. Ecol. Evol.
+11317–24
+[42] PageHMandHubbardDM1987Temporalandspatial
+patternsofgrowthinmussels Mytilus edulisonanoffshore
+platform:relationshipstowatertemperatureandfood
+availability J. Exp. Mar. Biol. Ecol.111159–79
+[43] BlanchetteCA,HelmuthBandGainesSD2007Spatial
+patternsofgrowthinthemussel, Mytilus californianus,
+acrossamajoroceanographicandbiogeographicboundary
+atpointconception,California,USA J. Exp. Mar. Biol. Ecol.
+340126–48
+[44] AllewayHK,JonesAR,TheuerkaufSJandJonesRC2022
+Aglobalandregionalviewoftheopportunityforclimate-
+smartmariculture Phil. Trans. R. Soc.B37720210128
+[45] FongCR et alClimatechangethreatstohumanworkerswill
+restrictfreshwaterfinfishaquaculture
+[46] IntergovernmentalPanelOnClimateChange(Ipcc)2023
+Climate Change 2022—Impacts, Adaptation and
+Vulnerability: Working Group II Contribution to the Sixth
+Assessment Report of the Intergovernmental Panel on Climate
+Change(CambridgeUniversityPress)( https://doi.org/
+10.1017/9781009325844)
+[47] HsiangS et al2017Estimatingeconomicdamagefrom
+climatechangeintheUnitedStates Science3561362–9
+[48] ReidG et al2019Climatechangeandaquaculture:
+consideringadaptationpotential Aquacult. Environ. Interact.
+11603–24
+[49] LesterSE,GentryRRandFroehlichHE2024Theroleof
+marineaquacultureincontributingtothediversityand
+stabilityofU.S.seafoodproduction Mar. Policy160105994
+[50] KumarGandEngleCR2016Technologicaladvancesthat
+ledtogrowthofshrimp,salmon,andtilapiafarming Rev.
+Fish. Sci. Aquacult.24136–52
+[51] GentryRR,RassweilerA,RuffEOandLesterSE2023
+Globalpathwaysofinnovationandspreadofmarine
+aquaculturespecies One Earth620–30
+[52] BertrandA2020 El Ni˜no Southern Oscillation (ENSO) Effects
+on Fisheries and Aquaculture(FAO)(https://doi.org/
+10.4060/ca8348en)
+[53] GarlockTM et al2024Environmental,economic,andsocial
+sustainabilityinaquaculture:theaquacultureperformance
+indicators Nat. Commun.155274
+[54] XiaoX,AgustiS,LinF,LiK,PanY,YuY,ZhengY,WuJand
+DuarteCM2017NutrientremovalfromChinesecoastal
+watersbylarge-scaleseaweedaquaculture Sci. Rep.
+746613
+[55] ZhengY,JinR,ZhangX,WangQandWuJ2019The
+considerableenvironmentalbenefitsofseaweedaquaculture
+inChina Stoch. Environ. Res. Risk Assess.331203–21
+[56] RacineP,MarleyA,FroehlichHE,GainesSD,LadnerI,
+MacAdam-SomerIandBradleyD2021Acaseforseaweed
+aquacultureinclusioninU.S.nutrientpollution
+management Mar. Policy129104506
+[57] FroehlichHE,AfflerbachJC,FrazierMandHalpernBS
+2019Bluegrowthpotentialtomitigateclimatechange
+throughseaweedoffsetting Curr. Biol.293087–3093.e3
+[58] EngleCR,VanSentenJ,SchwarzMH,BraydenCand
+BelleS2023Developingproductionandfinancial
+benchmarksformarineaquaculturefromfarmdata
+Aquacult. Econ. Manage.27352–81
+[59] KimJ,StekollMandYarishC2019Opportunities,
+challengesandfuturedirectionsofopen-waterseaweed
+aquacultureintheUnitedStates Phycologia58446–61
+[60] LadnerI,SuI,WolfeSandOliverSEconomicfeasibilityof
+seaweedaquacultureinSouthernCalifornia
+[61] JanasieCRegulationofseaweedasafoodsource
+[62] GreeleyJ et alIncreasingprocessingcapacity
+[63] RileyKL2021AnaquacultureopportunityareaAtlasforthe
+U.S.GulfofMexico( https://doi.org/10.25923/8CB3-3R66)
+[64] HodgsonEE,EssingtonTEandKaplanIC2016Extending
+vulnerabilityassessmenttoincludelifestagesconsiderations
+PLoS One11e0158917
+[65] KajtarJB,HolbrookNJ,LythA,HobdayAJ,MundyCN
+andUgaldeSC2024Astakeholder-guidedmarineheatwave
+hazardindexforfisheriesandaquaculture Clim. Change
+17726
+[66] FongP2008Macroalgal-dominatedecosystems Nitrogen in
+the Marine Environmentpp917–47
+[67] FernándezPA,Gaitán-EspitiaJD,LealPP,SchmidM,
+RevillATandHurdCL2020Nitrogensufficiency
+enhancesthermaltoleranceinhabitat-formingkelp:
+implicationsforacclimationunderthermalstress Sci. Rep.
+103186
+[68] FongP,FongJJandFongCR2004Growth,nutrient
+storage,andreleaseofdissolvedorganicnitrogenby
+Enteromorpha intestinalisinresponsetopulsesofnitrogen
+andphosphorus Aquat. Bot.7883–95
+[69] KristiansenT,ButenschönMandPeckMA2024Statistically
+downscaledCMIP6oceanvariablesforEuropeanwaters Sci.
+Rep.141209
+10

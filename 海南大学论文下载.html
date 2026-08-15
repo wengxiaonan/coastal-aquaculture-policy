@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海南大学 CARSI 论文下载清单</title>
+<style>
+  :root {
+    --bg: #f5f7fa;
+    --card: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --accent: #1d6f42;
+    --accent2: #b45309;
+    --border: #e5e7eb;
+    --pay: #b91c1c;
+    --oa: #1d6f42;
+    --ssrn: #6d28d9;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 24px 16px 60px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  header {
+    background: linear-gradient(135deg, #1d6f42 0%, #2c8a55 100%);
+    color: #fff;
+    border-radius: 14px;
+    padding: 28px 28px 22px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 16px rgba(29,111,66,.18);
+  }
+  header h1 { font-size: 22px; margin-bottom: 6px; }
+  header p { opacity: .92; font-size: 14px; }
+  .progressbar { margin-top: 14px; font-size: 13px; }
+  .progressbar .track { background: rgba(255,255,255,.25); height: 8px; border-radius: 6px; overflow: hidden; margin-top: 6px; }
+  .progressbar .fill { background: #fff; height: 100%; width: 0; border-radius: 6px; transition: width .3s; }
+  .steps {
+    background: #fff8e6;
+    border: 1px solid #f5d98a;
+    border-left: 4px solid #eab308;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 22px;
+    font-size: 14px;
+  }
+  .steps h2 { font-size: 15px; margin-bottom: 8px; color: #854d0e; }
+  .steps ol { padding-left: 20px; }
+  .steps li { margin: 4px 0; }
+  .steps code { background: #fff; border: 1px solid #f1e3b0; border-radius: 4px; padding: 0 5px; font-size: 13px; }
+  section { margin-bottom: 26px; }
+  .sec-head {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 16px; font-weight: 700; margin-bottom: 12px;
+  }
+  .badge { font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 20px; color: #fff; }
+  .badge.pay { background: var(--pay); }
+  .badge.oa { background: var(--oa); }
+  .badge.ssrn { background: var(--ssrn); }
+  .pub {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px 8px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  }
+  .pub h3 { font-size: 14px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; margin-bottom: 8px; font-weight: 600; }
+  .paper {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 10px 0;
+    border-top: 1px solid #f1f5f9;
+  }
+  .paper:first-of-type { border-top: none; }
+  .paper input[type=checkbox] { margin-top: 3px; width: 17px; height: 17px; accent-color: var(--accent); cursor: pointer; flex: none; }
+  .paper .num {
+    flex: none; width: 30px; height: 30px; border-radius: 8px;
+    background: #eef2f7; color: #475569; font-weight: 700; font-size: 13px;
+    display: flex; align-items: center; justify-content: center; margin-top: 1px;
+  }
+  .paper .meta { flex: 1; min-width: 0; }
+  .paper .title { font-size: 14px; font-weight: 600; }
+  .paper .cite { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .paper a.btn {
+    flex: none; display: inline-block;
+    background: var(--accent); color: #fff; text-decoration: none;
+    font-size: 13px; font-weight: 600; padding: 7px 14px; border-radius: 8px;
+    margin-top: 2px; white-space: nowrap; transition: background .15s;
+  }
+  .paper a.btn:hover { background: #165a36; }
+  .paper.done .title { color: var(--muted); text-decoration: line-through; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>海南大学 CARSI 论文下载清单</h1>
+    <p>共 23 篇未下载论文 · 付费墙 12 篇 + 开放获取 10 篇 + SSRN 1 篇</p>
+    <div class="progressbar">
+      <span id="progtext">已下载 0 / 23</span>
+      <div class="track"><div class="fill" id="progfill"></div></div>
+    </div>
+  </header>
+
+  <div class="steps">
+    <h2>📌 使用说明</h2>
+    <ol>
+      <li><strong>付费墙论文</strong>：点「打开」→ 出版社页面点 <strong>Access through your institution / 机构登录</strong> → 搜 <strong>Hainan University（海南大学）</strong> → 跳转统一身份认证，用<strong>学号/工号 + 密码</strong>登录 → 返回后点 Download PDF。</li>
+      <li><strong>开放获取论文</strong>：点「打开」直接下载，<strong>无需登录</strong>。</li>
+      <li>下载完成勾选左侧复选框，进度会自动保存（下次打开仍在）。</li>
+      <li>备用入口：<code>https://ds.carsi.edu.cn/secure/school.php</code> 或 WebVPN <code>https://webvpn.hainanu.edu.cn/</code></li>
+    </ol>
+  </div>
+
+  <!-- ================= 付费墙 ================= -->
+  <section>
+    <div class="sec-head"><span class="badge pay">需登录</span> 付费墙论文（12 篇，CARSI 登录后下载）</div>
+
+    <div class="pub">
+      <h3>Taylor &amp; Francis</h3>
+      <div class="paper" data-key="3">
+        <input type="checkbox" id="p3"><label for="p3" class="num">3</label>
+        <div class="meta">
+          <div class="title">Knapp &amp; Rubino 2016 — The political economics of marine aquaculture in the United States</div>
+          <div class="cite">Reviews in Fisheries Science &amp; Aquaculture</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1080/23308249.2015.1121202">打开</a>
+      </div>
+      <div class="paper" data-key="5">
+        <input type="checkbox" id="p5"><label for="p5" class="num">5</label>
+        <div class="meta">
+          <div class="title">Rubino et al. 2023 — Policy considerations for marine aquaculture in the United States</div>
+          <div class="cite">Reviews in Fisheries Science &amp; Aquaculture</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1080/23308249.2022.2083452">打开</a>
+      </div>
+      <div class="paper" data-key="32">
+        <input type="checkbox" id="p32"><label for="p32" class="num">32</label>
+        <div class="meta">
+          <div class="title">Murray et al. 2025 — Framing, values, and (in)tractable conflict in Maine aquaculture</div>
+          <div class="cite">Society &amp; Natural Resources</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1080/08941920.2025.2524745">打开</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <h3>SAGE</h3>
+      <div class="paper" data-key="4">
+        <input type="checkbox" id="p4"><label for="p4" class="num">4</label>
+        <div class="meta">
+          <div class="title">Fairbanks 2019 — Policy mobilities and the sociomateriality of U.S. offshore aquaculture governance</div>
+          <div class="cite">Environment and Planning A</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1177/0263774X18809708">打开</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <h3>University of Chicago Press</h3>
+      <div class="paper" data-key="8">
+        <input type="checkbox" id="p8"><label for="p8" class="num">8</label>
+        <div class="meta">
+          <div class="title">Anderson 2002 — Aquaculture and the future: Why fisheries economists should care</div>
+          <div class="cite">Marine Resource Economics</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1086/mre.17.2.42629357">打开</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <h3>Nature</h3>
+      <div class="paper" data-key="15">
+        <input type="checkbox" id="p15"><label for="p15" class="num">15</label>
+        <div class="meta">
+          <div class="title">Gentry et al. 2017 — Mapping the global potential for marine aquaculture</div>
+          <div class="cite">Nature Ecology &amp; Evolution</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1038/s41559-017-0257-9">打开</a>
+      </div>
+      <div class="paper" data-key="19">
+        <input type="checkbox" id="p19"><label for="p19" class="num">19</label>
+        <div class="meta">
+          <div class="title">Froehlich et al. 2018 — Global change in marine aquaculture production potential under climate change</div>
+          <div class="cite">Nature Ecology &amp; Evolution</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1038/s41559-018-0669-1">打开</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <h3>Elsevier (ScienceDirect)</h3>
+      <div class="paper" data-key="13">
+        <input type="checkbox" id="p13"><label for="p13" class="num">13</label>
+        <div class="meta">
+          <div class="title">Ruff &amp; Lester 2024 — Leaving seafood on the table: Pilot pathways a missed opportunity</div>
+          <div class="cite">Marine Policy</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.sciencedirect.com/science/article/abs/pii/S0308597X2400280X">打开</a>
+      </div>
+      <div class="paper" data-key="18">
+        <input type="checkbox" id="p18"><label for="p18" class="num">18</label>
+        <div class="meta">
+          <div class="title">Lester et al. 2024 — The role of marine aquaculture in contributing to the diversity and stability of U.S. seafood production</div>
+          <div class="cite">Marine Policy</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.sciencedirect.com/science/article/abs/pii/S0308597X23005274">打开</a>
+      </div>
+      <div class="paper" data-key="27">
+        <input type="checkbox" id="p27"><label for="p27" class="num">27</label>
+        <div class="meta">
+          <div class="title">Murray &amp; D'Anna 2015 — Seeing shellfish from the seashore</div>
+          <div class="cite">Marine Policy</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.marpol.2015.09.005">打开</a>
+      </div>
+      <div class="paper" data-key="28">
+        <input type="checkbox" id="p28"><label for="p28" class="num">28</label>
+        <div class="meta">
+          <div class="title">Suryanata &amp; Umemoto 2005 — Beyond environmental impact: Articulating the 'intangibles' in a resource conflict</div>
+          <div class="cite">Geoforum</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.geoforum.2004.11.007">打开</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <h3>Wiley</h3>
+      <div class="paper" data-key="24">
+        <input type="checkbox" id="p24"><label for="p24" class="num">24</label>
+        <div class="meta">
+          <div class="title">Clements &amp; Chopin 2017 — Ocean acidification and marine aquaculture in North America</div>
+          <div class="cite">Reviews in Aquaculture</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1111/raq.12140">打开</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 开放获取 ================= -->
+  <section>
+    <div class="sec-head"><span class="badge oa">免登录</span> 开放获取论文（10 篇，浏览器直接下载）</div>
+
+    <div class="pub">
+      <h3>Wiley（开放获取）</h3>
+      <div class="paper" data-key="9">
+        <input type="checkbox" id="p9"><label for="p9" class="num">9</label>
+        <div class="meta">
+          <div class="title">Engle &amp; van Senten 2025 — The National Regulatory Cost Burden on US aquaculture farms</div>
+          <div class="cite">Journal of the World Aquaculture Society</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1111/jwas.70005">打开</a>
+      </div>
+      <div class="paper" data-key="29">
+        <input type="checkbox" id="p29"><label for="p29" class="num">29</label>
+        <div class="meta">
+          <div class="title">Marriott et al. 2024 — Assessing socio-environmental suitability and social license of offshore aquaculture (Florida)</div>
+          <div class="cite">Journal of the World Aquaculture Society</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1111/jwas.13031">打开</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <h3>IOP</h3>
+      <div class="paper" data-key="14">
+        <input type="checkbox" id="p14"><label for="p14" class="num">14</label>
+        <div class="meta">
+          <div class="title">Fong et al. 2024 — Winners and losers in U.S. marine aquaculture under climate change（核心精读）</div>
+          <div class="cite">Environmental Research Letters</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1088/1748-9326/ad76c0">打开</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <h3>Elsevier (ScienceDirect · 开放获取)</h3>
+      <div class="paper" data-key="2">
+        <input type="checkbox" id="p2"><label for="p2" class="num">2</label>
+        <div class="meta">
+          <div class="title">Froehlich et al. 2022 — Piecing together the data of the U.S. marine aquaculture puzzle</div>
+          <div class="cite">Journal of Environmental Management</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.jenvman.2022.114623">打开</a>
+      </div>
+      <div class="paper" data-key="6">
+        <input type="checkbox" id="p6"><label for="p6" class="num">6</label>
+        <div class="meta">
+          <div class="title">Fong et al. 2024 — The structure and function of a state aquaculture plan</div>
+          <div class="cite">Aquaculture</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.aquaculture.2024.741164">打开</a>
+      </div>
+      <div class="paper" data-key="22">
+        <input type="checkbox" id="p22"><label for="p22" class="num">22</label>
+        <div class="meta">
+          <div class="title">Froehlich et al. 2022 — Emerging trends in science and news of climate change threats to and adaptation of aquaculture</div>
+          <div class="cite">Aquaculture</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.aquaculture.2021.737812">打开</a>
+      </div>
+      <div class="paper" data-key="25">
+        <input type="checkbox" id="p25"><label for="p25" class="num">25</label>
+        <div class="meta">
+          <div class="title">Fong et al. 2024 — Conflict and alignment on aquaculture among Californian communities</div>
+          <div class="cite">Aquaculture</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.aquaculture.2024.740230">打开</a>
+      </div>
+      <div class="paper" data-key="30">
+        <input type="checkbox" id="p30"><label for="p30" class="num">30</label>
+        <div class="meta">
+          <div class="title">Mather &amp; Fanning 2019 — Social licence and aquaculture: Towards a research agenda</div>
+          <div class="cite">Marine Policy</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.marpol.2018.10.049">打开</a>
+      </div>
+      <div class="paper" data-key="31">
+        <input type="checkbox" id="p31"><label for="p31" class="num">31</label>
+        <div class="meta">
+          <div class="title">Fairbanks et al. 2016 — Moving mussels offshore? Perceptions of offshore aquaculture policy in New England</div>
+          <div class="cite">Ocean &amp; Coastal Management</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.ocecoaman.2016.05.004">打开</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <h3>仓储（NOAA / ScholarWorks）</h3>
+      <div class="paper" data-key="1">
+        <input type="checkbox" id="p1"><label for="p1" class="num">1</label>
+        <div class="meta">
+          <div class="title">Lester et al. 2022 — Diverse state-level marine aquaculture policy in the United States</div>
+          <div class="cite">Reviews in Aquaculture（NOAA 仓储）</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://doi.org/10.1111/raq.12631">打开</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SSRN ================= -->
+  <section>
+    <div class="sec-head"><span class="badge ssrn">SSRN</span> 预印本（1 篇）</div>
+    <div class="pub">
+      <div class="paper" data-key="33">
+        <input type="checkbox" id="p33"><label for="p33" class="num">33</label>
+        <div class="meta">
+          <div class="title">Working the ground game: How Maine shellfish and seaweed farmers build social license to operate</div>
+          <div class="cite">SSRN Preprint 4783738</div>
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4783738">打开</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>生成于 2026-08-14 · 数据来源：美国养殖政策_文献收集.md</footer>
+</div>
+
+<script>
+  (function () {
+    var boxes = document.querySelectorAll('.paper input[type=checkbox]');
+    var STORE = 'hainanu_paper_progress';
+
+    function load() {
+      var saved = {};
+      try { saved = JSON.parse(localStorage.getItem(STORE) || '{}'); } catch (e) {}
+      boxes.forEach(function (b) {
+        if (saved[b.id]) b.checked = true;
+      });
+      update();
+    }
+    function update() {
+      var total = boxes.length;
+      var done = 0;
+      boxes.forEach(function (b) {
+        if (b.checked) done++;
+        var card = b.closest('.paper');
+        card.classList.toggle('done', b.checked);
+      });
+      document.getElementById('progtext').textContent = '已下载 ' + done + ' / ' + total;
+      document.getElementById('progfill').style.width = (total ? (done / total * 100) : 0) + '%';
+    }
+    function save() {
+      var data = {};
+      boxes.forEach(function (b) { if (b.checked) data[b.id] = true; });
+      try { localStorage.setItem(STORE, JSON.stringify(data)); } catch (e) {}
+    }
+    boxes.forEach(function (b) {
+      b.addEventListener('change', function () { update(); save(); });
+    });
+    load();
+  })();
+</script>
+</body>
+</html>

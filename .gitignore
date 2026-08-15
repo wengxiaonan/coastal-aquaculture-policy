@@ -1,0 +1,21 @@
+﻿# 排除：受版权保护的论文 PDF、登录缓存、临时产物
+pdfs/
+pdfs_cn/
+pdfs_cn_suspicious/
+.pw_cache/
+.uv-cache/
+__pycache__/
+*.pyc
+cnki_download_log.txt
+cnki_retry_log.txt
+retry_report.csv
+zotero_doi_links.html
+zotero_doi_batches.html
+zotero_doi_urls.txt
+_scripts/*_gbk.ps1
+# 补充排除：Chromium 缓存（含登录态）与含受版权 PDF 的目录
+.pw_profile/
+papers/
+CARSI下载/
+*PDF/
+*.log
